@@ -21,8 +21,8 @@ fig.update_layout(barmode = 'overlay')
 fig.update_traces(opacity=0.70)
 fig.update_layout(
     autosize=True,
-    margin=dict(l=0, r=50, t=5, b=4  ),
+    #margin=dict(l=0, r=50, t=5, b=4  ),
 )
-#st.header("Distribution of Log_Final Price")
+st.header("Distribution of Log_Final Price")
 st.plotly_chart(fig)
 
