@@ -9,7 +9,7 @@ from scipy import stats  ## for KS test
 from prettytable import PrettyTable
 import plotly.express as px
 import streamlit as st
-combined_data = pd.read_csv('C:/Users/chand/Desktop/Combined_data.csv')
+combined_data = pd.read_csv('Combined_data.csv')
 
 color = st.sidebar.selectbox("Select a Color:", [None,'Covid', 'City_Tier', 'Sale', 'WEEKDAY','Time_Month'])
 facet_row = st.sidebar.selectbox("Select a facet_row:", [None,'Covid', 'City_Tier', 'Sale', 'WEEKDAY','Time_Month'])
