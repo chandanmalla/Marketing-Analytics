@@ -16,7 +16,7 @@ facet_row = st.sidebar.selectbox("Select a facet_row:", [None,'Covid', 'City_Tie
 facet_col = st.sidebar.selectbox("Select a facet_col:", [None,'Covid', 'City_Tier', 'Sale', 'WEEKDAY','Time_Month'])
 
 fig = px.histogram(data_frame=combined_data, y=None, x='Log_Final Price', color=color,
-    facet_row=facet_row, facet_col=facet_col,marginal='box',width=800, height=600 )
+    facet_row=facet_row, facet_col=facet_col,marginal='box',width=800, height=800 )
 fig.update_layout(barmode = 'overlay')
 fig.update_traces(opacity=0.70)
 fig.update_layout(
