@@ -1,0 +1,289 @@
+,Name,RFMClass,Gender,Current Job Title,Marital Status,Do you have to care for anyone with chronic illness?,Income (per month),Preferred Mode of Payment,Do you practise meditation? Yes/No,If yes,Do you do any form of exercise?,If yes.1, How often do you volunteer for social-service activities?,Hobbies_Count,How often do you pursue your hobbies?,Collectiv,Life_Satsif,Indiv,LongTermOri,ShortTermOri,Materialism,Spiritualism,EnvBehav,Age,has_child,Lives_in_city_tier,Clusters,More_than_average,Participated_in_Sale
+0,G1M1R1,344,Male,Student,Not Married,Yes,Prefer Not to Say,UPI,No,I have never tried.,No,sometimes but not consistent,Always,1,Always,High,High,Low,High,Low,Low,High,High,24,No,Tier_1,2,No,No
+1,G1M1R2,324,Female,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,Yes,everyday,Never,1,very often,High,High,Low,High,Low,Low,High,High,26,No,Tier_2,2,No,Twice
+2,G1M1R3,231,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,Yes,everyday,Always,3,sometimes,High,Low,Low,Low,Low,Low,High,High,23,No,Tier_2,2,No,Twice
+3,G1M1R4,233,Male,Engineer,Not Married,No,"Rs. 50,000 – 75,000",UPI,No,I have never tried.,Yes,sometimes but not consistent,Rarely,4,very often,High,Low,Low,High,Low,Low,High,High,23,No,Tier_2,2,No,Twice
+4,G1M1R5,434,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Rarely,5,very often,High,High,Low,High,Low,Low,High,High,23,No,Tier 3,0,No,Twice
+5,G1M1R6,333,Female,Architect,Not Married,No,"Rs. 10,000 – 25,000",UPI,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Rarely,4,sometimes,High,Low,Low,High,Low,Low,High,High,26,No,Tier_2,2,No,Twice
+6,G1M1R7,433,Male,Student,Not Married,No,Prefer Not to Say,Cash on Delivery,No,I have never tried.,Yes,sometimes but not consistent,Rarely,1,sometimes,High,Low,Low,High,Low,Low,High,High,22,No,Tier_2,2,No,No
+7,G1M1R8,433,Male,Engineer,Married,No,Prefer Not to Say,Credit Card,Yes,sometimes but not consistent,Yes,once or twice a week,Sometimes,1,very often,High,High,Low,High,Low,Low,High,High,34,Yes,Tier_1,2,No,Twice
+8,G1M1R9,123,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,once or twice a week,Sometimes,2,sometimes,High,High,Low,High,Low,Low,High,High,23,No,Tier_2,0,No,No
+9,G1M2R1,111,Male,Engineer,Not Married,No,"Rs. 10,000 – 25,000",Cash on Delivery,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Rarely,2,sometimes,High,Low,Low,High,High,Low,High,Low,24,No,Tier 3,0,Yes,Twice
+10,G1M2R10,112,Female,Engineer,Not Married,No,"Rs. 25,000 – 50,000",UPI,Yes,sometimes but not consistent,Yes,once or twice a week,Sometimes,1,very often,High,High,Low,High,Low,Low,High,High,26,No,Tier_1,0,Yes,Twice
+11,G1M2R11,334,Male,Statistical Assistant,Married,No,"Rs. 25,000 – 50,000",Net Banking,No,No,No,No,Sometimes,1,sometimes,High,High,Low,Low,Low,Low,High,High,31,Yes,Tier 3,2,No,Twice
+12,G1M2R12,112,Male,Admn. Officer,Married,No,"Rs. 1,50, 000 – 2,00, 000",Credit Card,Yes,sometimes but not consistent,Yes,once or twice a week,Always,1,Always,High,High,High,High,High,High,High,High,55,Yes,Tier 3,1,No,Twice
+13,G1M2R2,121,Male,Engineer,Not Married,No,"Rs. 25,000 – 50,000",UPI,No,No,Yes,sometimes but not consistent,Sometimes,3,Always,High,High,Low,High,Low,Low,Low,Low,26,No,Tier_2,2,Yes,Twice
+14,G1M2R3,234,Female,Student,Not Married,No,Prefer Not to Say,Cash on Delivery,No,No,No,No,Sometimes,3,very often,High,Low,Low,High,Low,Low,Low,High,23,No,Tier 3,0,No,Twice
+15,G1M2R4,123,Male,Student,Not Married,No,Prefer Not to Say,Cash on Delivery,No,I have never tried.,Yes,sometimes but not consistent,Sometimes,1,very often,High,High,Low,Low,Low,Low,High,High,17,No,Tier 3,0,No,Twice
+16,G1M2R5,312,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,No,sometimes but not consistent,Rarely,2,sometimes,High,Low,High,High,High,High,Low,High,24,No,Tier_1,2,Yes,Twice
+17,G1M2R6,323,Male,Nursing,Not Married,No,"Rs. 10,000 – 25,000",Cash on Delivery,No,I have never tried.,No,sometimes but not consistent,Always,1,Always,High,Low,High,High,High,High,High,High,28,No,Tier_2,2,No,No
+18,G1M2R7,332,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,Yes,sometimes but not consistent,Rarely,1,sometimes,High,Low,Low,Low,Low,Low,Low,High,22,No,Tier_2,2,No,Twice
+19,G1M2R8,343,Male,Video editor ,Not Married,No,Prefer Not to Say,Cash on Delivery,No,No,Yes,sometimes but not consistent,Sometimes,1,sometimes,High,Low,Low,High,Low,Low,Low,High,23,No,Tier_2,2,No,No
+20,G1M2R9,112,Male,Student,Not Married,No,"Rs. 10,000 – 25,000",UPI,No,sometimes but not consistent,Yes,everyday,Sometimes,2,very often,High,Low,Low,High,High,Low,Low,High,24,No,Tier_1,0,Yes,Twice
+21,G1M3R1,223,Male,Engineer,Not Married,No,"Rs. 2,00,000 and above",Debit Card,No,I have never tried.,Yes,once or twice a week,Sometimes,1,sometimes,High,Low,Low,High,Low,High,High,High,26,No,Tier_2,2,No,Twice
+22,G1M3R10,113,Female,Student,Not Married,No,"Rs. 2,00,000 and above",Cash on Delivery,Yes,everyday,Yes,everyday,Rarely,2,very often,High,High,Low,High,Low,Low,High,High,23,No,Tier_1,0,Yes,Twice
+23,G1M3R11,434,Female,Housewife,Married,Yes,"Rs. 75,000 – 1,00,000",Cash on Delivery,Yes,everyday,No,No,Never,1,Always,High,High,Low,High,Low,High,Low,High,27,Yes,Tier_2,2,No,No
+24,G1M3R12,444,Male,Engineer,Married,Yes,"Rs. 2,00,000 and above",Net Banking,No,No,Yes,once or twice a week,Never,1,Rarely,High,Low,High,High,Low,Low,Low,High,26,No,Tier_2,2,No,No
+25,G1M3R2,221,Male,Freelancer,Not Married,No,"Rs. 50,000 – 75,000",Cash on Delivery,No,No,Yes,once or twice a week,Never,1,sometimes,High,Low,Low,Low,Low,High,Low,High,25,No,Tier_2,2,Yes,Twice
+26,G1M3R3,223,Male,Student,Not Married,No,"Rs. 2,00,000 and above",Debit Card,No,No,No,No,Rarely,1,Always,High,Low,Low,High,Low,High,High,High,21,No,Tier_2,0,No,Twice
+27,G1M3R4,332,Male,Student,Not Married,No,"Rs. 10,000 – 25,000",Debit Card,Yes,everyday,Yes,once or twice a week,Sometimes,2,Always,High,High,Low,High,Low,Low,High,High,26,No,Tier_1,2,No,No
+28,G1M3R5,242,Male,Student,Not Married,No,Prefer Not to Say,Debit Card,Yes,once or twice a week,Yes,sometimes but not consistent,Rarely,1,sometimes,High,Low,Low,High,Low,High,High,High,19,No,Tier 3,0,No,Twice
+29,G1M3R6,444,Female,Teacher,Married,No,"Rs. 1,50, 000 – 2,00, 000",Online Wallets,Yes,once or twice a week,No,No,Sometimes,2,sometimes,High,Low,Low,High,Low,Low,Low,High,31,Yes,Tier_1,2,No,Yes
+30,G1M3R7,444,Female,Student,Not Married,No,Prefer Not to Say,Cash on Delivery,Yes,everyday,No,No,Never,1,very often,High,High,Low,High,Low,Low,High,High,24,No,Tier_2,0,No,No
+31,G1M3R8,334,Female,Student,Not Married,Yes,"Rs. 1,00, 000 – 1,50,000",Online Wallets,No,No,No,No,Never,1,sometimes,High,Low,Low,High,Low,High,High,High,24,No,Tier_2,2,No,No
+32,G1M3R9,323,Male,Chatered Accountant,Not Married,Yes,"Rs. 2,00,000 and above",UPI,No,No,Yes,everyday,Rarely,2,very often,High,High,Low,Low,Low,High,Low,Low,24,No,Tier_2,2,No,No
+33,G1M4R1,341,Male,Engineer,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,No,sometimes but not consistent,Rarely,1,very often,High,Low,Low,High,Low,Low,High,High,26,No,Tier 3,2,No,No
+34,G1M4R2,233,Male,Engineer,Not Married,No,Prefer Not to Say,Cash on Delivery,No,I have never tried.,No,No,Never,1,Always,Low,Low,Low,Low,Low,Low,High,High,26,No,Tier 3,2,No,Twice
+35,G1M4R3,123,Female,Student,Not Married,No,"Rs. 10,000 – 25,000",UPI,No,No,No,No,Always,1,Always,High,Low,High,High,Low,High,High,High,22,No,Tier_1,0,Yes,Twice
+36,G1M4R4,123,Female,Retired,Married,No,Prefer Not to Say,Cash on Delivery,No,No,Yes,sometimes but not consistent,Sometimes,1,Always,Low,High,Low,High,Low,High,Low,High,50,Yes,Tier 3,1,No,Twice
+37,G1M4R5,233,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,Yes,once or twice a week,Sometimes,2,sometimes,High,Low,Low,High,Low,Low,Low,Low,23,No,Tier 3,2,No,No
+38,G1M4R6,434,Male,Army,Married,No,"Rs. 50,000 – 75,000",UPI,No,sometimes but not consistent,No,sometimes but not consistent,Very Often,1,sometimes,High,Low,Low,High,Low,Low,High,Low,45,Yes,Tier 3,1,No,Twice
+39,G1M4R7,223,Female,Housewife,Married,No,"Rs. 10,000 – 25,000",Cash on Delivery,Yes,once or twice a week,Yes,once or twice a week,Sometimes,1,Rarely,High,High,Low,High,Low,Low,Low,Low,33,Yes,Tier 3,2,No,No
+40,G1M4R8,233,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,once or twice a week,Yes,sometimes but not consistent,Rarely,1,very often,Low,Low,Low,Low,Low,Low,Low,Low,23,No,Tier_1,0,No,Twice
+41,G2M1R1,111,Female,Sales Profile ,Married,No,"Rs. 50,000 – 75,000",Credit Card,No,No,Yes,sometimes but not consistent,Very Often,3,sometimes,High,Low,Low,High,Low,Low,Low,High,29,No,Tier_1,2,Yes,Twice
+42,G2M1R10,413,Male,Unemployed ,Not Married,Yes,Prefer Not to Say,UPI,Yes,once or twice a week,Yes,everyday,Sometimes,4,sometimes,High,High,Low,High,High,Low,High,High,22,No,Tier_2,0,Yes,Twice
+43,G2M1R2,111,Male,Associate Designer ,Not Married,No,"Rs. 25,000 – 50,000",Net Banking,No,No,No,No,Rarely,3,sometimes,Low,Low,High,High,High,High,High,Low,26,No,Tier 3,2,Yes,Twice
+44,G2M1R4,344,Male,Research scholar,Not Married,No,"Rs. 25,000 – 50,000",UPI,Yes,everyday,Yes,once or twice a week,Sometimes,3,sometimes,Low,Low,Low,Low,Low,Low,Low,Low,28,No,Tier_1,2,No,No
+45,G2M1R5,213,Female,Engineer,Married,No,"Rs. 10,000 – 25,000",UPI,No,No,Yes,once or twice a week,Sometimes,3,sometimes,High,High,Low,Low,Low,Low,High,High,49,Yes,Tier 3,1,Yes,Twice
+46,G2M1R6,342,Male,Manager,Not Married,No,"Rs. 75,000 – 1,00,000",Credit Card,Yes,sometimes but not consistent,No,No,Sometimes,2,sometimes,Low,High,Low,High,Low,High,High,High,39,Yes,Tier 3,1,No,No
+47,G2M1R7,334,Male,Student,Not Married,No,Prefer Not to Say,Cash on Delivery,Yes,once or twice a week,Yes,everyday,Always,1,Always,Low,Low,Low,Low,Low,High,Low,High,15,No,Tier_2,0,No,Twice
+48,G2M1R8,432,Female,Student ,Not Married,No,"Rs. 25,000 – 50,000",UPI,Yes,sometimes but not consistent,No,No,Sometimes,3,sometimes,High,Low,Low,High,Low,Low,High,High,27,No,Tier_1,2,No,No
+49,G2M1R9,134,Female,3D designer,Not Married,No,"Rs. 2,00,000 and above",Debit Card,Yes,sometimes but not consistent,Yes,everyday,Rarely,5,very often,High,High,Low,High,Low,Low,High,High,25,No,Tier_1,0,No,No
+50,G2M2R1,211,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,No,Yes,everyday,Sometimes,1,Always,High,Low,Low,High,Low,High,High,High,22,No,Tier 3,0,Yes,Twice
+51,G2M2R2,111,Female,UX Designer,Not Married,No,"Rs. 75,000 – 1,00,000",UPI,Yes,once or twice a week,Yes,sometimes but not consistent,Sometimes,2,sometimes,High,High,Low,High,Low,Low,High,High,29,No,Tier_2,2,Yes,Twice
+52,G2M2R3,312,Female,Consultant,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Sometimes,4,very often,High,High,Low,High,Low,High,Low,High,28,No,Tier_1,2,Yes,Twice
+53,G2M2R4,443,Female,Student,Not Married,No,Prefer Not to Say,Cash on Delivery,No,No,No,No,Sometimes,1,Rarely,High,Low,Low,High,Low,Low,High,High,26,No,Tier_2,2,No,Yes
+54,G2M2R5,212,Female,Urban Planner,Not Married,No,"Rs. 25,000 – 50,000",UPI,No,No,No,No,Very Often,2,Always,High,High,Low,High,Low,Low,High,High,24,No,Tier 3,0,Yes,Twice
+55,G2M2R6,123,Male,Manager,Not Married,No,"Rs. 50,000 – 75,000",UPI,No,I have never tried.,No,sometimes but not consistent,Sometimes,3,Always,High,Low,Low,Low,Low,High,Low,High,26,No,Tier_2,2,No,Twice
+56,G2M2R7,242,Female,Student,Not Married,No,"Rs. 50,000 – 75,000",UPI,Yes,sometimes but not consistent,Yes,everyday,Sometimes,3,very often,High,Low,Low,High,High,Low,Low,High,24,No,Tier 3,0,No,Twice
+57,G2M3R1,112,Male,Working,Not Married,No,"Rs. 25,000 – 50,000",Cash On Delivery,Yes,1/2 times a week,No,1/2 times a week,Sometimes,1,sometimes,High,High,High,High,High,High,High,High,30,No,Tier_2,2,Yes,Twice
+58,G2M3R10,132,Male,Working,Married,Yes,"Rs. 75,000 – 1,00,000",UPI,Yes,Everyday,Yes,Everyday,Always,1,sometimes,High,High,High,High,High,High,High,High,41,Yes,Tier 3,1,No,No
+59,G2M3R2,321,Male,Working,Not Married,No,"Rs. 25,000 – 50,000",Cash On Delivery,Yes,1/2 times a week,No,1/2 times a week,Sometimes,1,sometimes,High,High,High,High,High,High,High,High,25,No,Tier_2,2,No,Twice
+60,G2M3R3,442,Male,Working,Not Married,Yes,"Rs. 10,000 – 25,000",UPI,Yes,Everyday,Yes,Everyday,Always,1,sometimes,High,High,High,High,High,High,High,High,26,No,Tier_2,2,No,No
+61,G2M3R4,434,Male,Working,Married,Yes,"Rs. 25,000 – 50,000",Cash On Delivery,Yes,Everyday,No,Everyday,Sometimes,1,sometimes,High,High,High,High,High,High,High,High,34,Yes,Tier_2,2,No,No
+62,G2M3R5,322,Male,Working,Married,Yes,"Rs. 75,000 – 1,00,000",UPI,Yes,1/2 times a week,Yes,1/2 times a week,Sometimes,1,sometimes,High,High,High,High,High,High,High,High,45,Yes,Tier 3,1,No,Twice
+63,G2M3R6,244,Male,Working,Married,Yes,"Rs. 25,000 – 50,000",UPI,Yes,Everyday,Yes,Everyday,Always,1,sometimes,High,High,High,High,High,High,High,High,34,Yes,Tier_2,2,No,No
+64,G2M3R7,122,Male,Working,Not Married,No,"Rs. 10,000 – 25,000",UPI,Yes,Everyday,Yes,Everyday,Always,1,sometimes,High,High,High,High,High,High,High,High,22,No,Tier 3,0,No,Twice
+65,G2M3R8,243,Male,Working,Not Married,Yes,"Rs. 10,000 – 25,000",UPI,Yes,Everyday,Yes,Everyday,Always,1,sometimes,High,High,High,High,High,High,High,High,25,No,Tier_1,2,No,No
+66,G2M3R9,244,Female,Working,Married,Yes,"Rs. 50,000 – 75,000",UPI,Yes,1/2 times a week,Yes,Everyday,Sometimes,1,sometimes,High,High,High,High,High,High,High,High,27,Yes,Tier 3,2,No,No
+67,G2M4R1,433,Female,Student,Not Married,No,"Rs. 10,000 – 25,000",UPI,Yes,once or twice a week,No,sometimes but not consistent,Sometimes,1,sometimes,Low,Low,Low,Low,High,Low,Low,High,23,No,Tier_2,2,No,Twice
+68,G2M4R10,444,Female,Secretary,Not Married,No,"Rs. 10,000 – 25,000",UPI,No,sometimes but not consistent,No,sometimes but not consistent,Sometimes,1,very often,Low,Low,Low,High,Low,Low,Low,Low,24,No,Tier 3,2,No,No
+69,G2M4R11,243,Male,Working,Married,No,"Rs. 10,000 – 25,000",Cash on Delivery,No,sometimes but not consistent,No,sometimes but not consistent,Sometimes,1,sometimes,Low,Low,Low,High,Low,Low,Low,Low,26,Yes,Tier 3,2,No,Yes
+70,G2M4R12,442,Male,Accountant,Not Married,No,"Rs. 10,000 – 25,000",UPI,No,I have never tried.,Yes,once or twice a week,Sometimes,1,sometimes,Low,High,Low,Low,Low,Low,Low,Low,26,No,Tier_2,2,No,Twice
+71,G2M4R13,144,Male,Patwari,Married,No,"Rs. 25,000 – 50,000",Cash on Delivery,No,I have never tried.,No,sometimes but not consistent,Sometimes,1,sometimes,High,Low,Low,Low,Low,Low,Low,Low,45,Yes,Tier_2,1,No,No
+72,G2M4R14,444,Male,Student,Not Married,Yes,Prefer Not to Say,Cash on Delivery,No,I have never tried.,No,sometimes but not consistent,Sometimes,1,sometimes,High,High,High,High,Low,Low,Low,Low,23,No,Tier_2,2,No,No
+73,G2M4R2,441,Male,Freelancer,Not Married,No,"Rs. 25,000 – 50,000",Net Banking,No,I have never tried.,Yes,once or twice a week,Always,1,sometimes,Low,Low,Low,Low,High,Low,Low,High,24,No,Tier 3,2,No,No
+74,G2M4R3,232,Male,Manager,Not Married,No,"Rs. 50,000 – 75,000",UPI,Yes,everyday,Yes,everyday,Sometimes,1,sometimes,High,High,High,High,High,High,Low,High,26,No,Tier 3,2,No,No
+75,G2M4R4,323,Male,Manager,Married,No,"Rs. 50,000 – 75,000",UPI,No,I have never tried.,Yes,once or twice a week,Very Often,1,very often,Low,Low,High,Low,High,Low,Low,High,27,Yes,Tier_2,2,Yes,Twice
+76,G2M4R5,433,Male,Teacher,Not Married,No,"Rs. 50,000 – 75,000",UPI,No,I have never tried.,Yes,once or twice a week,Sometimes,1,sometimes,High,Low,High,High,Low,Low,Low,Low,26,No,Tier 3,2,No,Twice
+77,G2M4R6,332,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,No,sometimes but not consistent,Sometimes,1,sometimes,Low,Low,Low,Low,High,Low,Low,Low,22,No,Tier_2,2,No,Twice
+78,G2M4R7,344,Female,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,No,sometimes but not consistent,Sometimes,1,very often,Low,High,Low,Low,Low,Low,High,Low,22,No,Tier 3,0,No,No
+79,G2M4R8,344,Male,farmer,Not Married,No,"Rs. 10,000 – 25,000",UPI,No,No,No,No,Sometimes,1,Always,Low,Low,Low,Low,Low,Low,Low,Low,31,No,Tier_2,2,No,Yes
+80,G2M4R9,443,Male,Student,Not Married,No,"Rs. 10,000 – 25,000",UPI,Yes,once or twice a week,No,sometimes but not consistent,Sometimes,1,sometimes,High,High,Low,High,High,High,High,High,23,No,Tier_2,0,No,No
+81,G3M1R1,444,Female,Student,Not Married,No,Prefer Not to Say,UPI,Yes,everyday,Yes,everyday,Sometimes,4,very often,High,High,Low,High,Low,Low,Low,High,25,No,Tier_1,0,No,Twice
+82,G3M1R10,343,Female,Student,Not Married,No,Prefer Not to Say,Cash on Delivery,No,No,No,No,Very Often,2,very often,High,Low,Low,High,Low,High,High,High,24,No,Tier 3,0,No,Twice
+83,G3M1R2,441,Male,Student,Not Married,No,"Rs. 10,000 – 25,000",UPI,No,I have never tried.,Yes,once or twice a week,Very Often,3,very often,High,Low,Low,Low,Low,High,Low,High,24,No,Tier 3,2,No,Twice
+84,G3M1R3,344,Female,Research scholar,Not Married,No,"Rs. 25,000 – 50,000",Net Banking,Yes,everyday,No,No,Never,1,sometimes,High,Low,Low,High,Low,Low,High,High,24,No,Tier 3,0,No,No
+85,G3M1R4,321,Male,"Domain Expert, Ergonomics",Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Rarely,2,very often,High,Low,Low,High,Low,Low,High,Low,32,No,Tier 3,2,No,No
+86,G3M1R5,123,Male,RESEARCH SCHOLAR,Not Married,No,"Rs. 25,000 – 50,000",UPI,Yes,everyday,Yes,everyday,Sometimes,4,Always,High,Low,Low,High,High,Low,High,Low,24,No,Tier 3,0,No,Twice
+87,G3M1R6,322,Male,Junior Research Fellow,Not Married,No,"Rs. 25,000 – 50,000",UPI,Yes,sometimes but not consistent,Yes,once or twice a week,Rarely,5,sometimes,High,High,Low,High,Low,Low,High,Low,25,No,Tier_1,0,Yes,No
+88,G3M1R7,112,Female,Housewife,Married,No,"Rs. 1,00, 000 – 1,50,000",Debit Card,Yes,sometimes but not consistent,Yes,once or twice a week,Sometimes,3,very often,High,High,High,High,High,High,High,Low,48,Yes,Tier 3,1,Yes,Twice
+89,G3M1R8,133,Female,PhD Student,Not Married,No,"Rs. 25,000 – 50,000",Cash on Delivery,Yes,everyday,Yes,everyday,Always,2,sometimes,High,High,Low,High,Low,Low,High,High,23,No,Tier_1,0,No,Twice
+90,G3M1R9,111,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,Yes,sometimes but not consistent,Rarely,2,very often,High,High,Low,High,Low,Low,High,High,21,No,Tier 3,0,Yes,Twice
+91,G3M2R1,111,Male,Engineer,Not Married,No,Prefer Not to Say,UPI,Yes,once or twice a week,Yes,once or twice a week,Rarely,1,Always,High,Low,Low,Low,Low,Low,High,High,23,Yes,Tier 3,0,Yes,Twice
+92,G3M2R2,411,Male,Student,Not Married,Yes,Prefer Not to Say,UPI,No,sometimes but not consistent,Yes,sometimes but not consistent,Never,2,sometimes,High,Low,High,Low,Low,High,Low,Low,19,No,Tier_2,0,Yes,Twice
+93,G3M2R2,411,Male,Student,Not Married,No,Prefer Not to Say,Cash on Delivery,No,No,No,No,Never,1,very often,High,Low,Low,Low,High,Low,High,Low,24,No,Tier_2,2,Yes,Twice
+94,G3M2R3,112,Male,Engineer,Not Married,No,Prefer Not to Say,UPI,No,No,Yes,everyday,Rarely,1,Rarely,High,Low,Low,Low,High,Low,Low,Low,23,No,Tier_2,2,Yes,Twice
+95,G3M2R4,112,Male,Engineer,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,Yes,everyday,Never,3,Always,High,High,Low,High,Low,Low,Low,Low,23,No,Tier_1,2,No,Twice
+96,G3M2R5,122,Male,Consultant,Married,Yes,Prefer Not to Say,UPI,Yes,everyday,Yes,everyday,Sometimes,3,very often,High,High,Low,Low,Low,Low,Low,Low,47,Yes,Tier_1,1,Yes,Twice
+97,G3M3R10,233,Male,Student,Not Married,No,Prefer not to say,UPI,No,No,No,No,Rarely,2,very often,Low,Low,Low,Low,Low,Low,Low,Low,25,No,Tier_2,2,No,No
+98,G3M3R11,333,Male,Doctor,Not Married,Yes,Prefer not to say,UPI,No,No,Yes,everyday,Sometimes,2,Rarely,Low,Low,Low,Low,Low,Low,Low,Low,24,No,Tier 3,2,No,Twice
+99,G3M3R12,112,Female,Student,Not Married,No,Prefer not to say,UPI,No,No,Yes,everyday,Sometimes,2,very often,Low,Low,Low,Low,Low,Low,Low,Low,23,No,Tier 3,0,Yes,Twice
+100,G3M3R6,444,Male,Retired,Married,Yes,Prefer not to say,Cash on Delivery,Yes,everyday,Yes,everyday,Sometimes,1,Very often,Low,High,Low,Low,Low,Low,High,Low,65,Yes,Tier_2,1,No,Twice
+101,G3M3R7,233,Male,Student,Not Married,No,Prefer not to say,UPI,No,No,Yes,sometimes but not consistent,Rarely,1,very often,Low,Low,Low,Low,Low,Low,Low,Low,25,No,Tier_2,2,No,Twice
+102,G3M3R8,431,Male,Student,Not Married,Yes,Prefer not to say,Cash on Delivery,Yes,sometimes but not consistent,Yes,once or twice a week,Sometimes,2,very often,Low,Low,Low,Low,Low,Low,Low,Low,22,No,Tier 3,0,No,Twice
+103,G3M3R9,211,Male,Engineer,Not Married,Yes,Prefer not to say,Cash on Delivery,No,No,No,No,Sometimes,2,very often,Low,Low,Low,Low,Low,Low,Low,Low,24,No,Tier 3,2,Yes,Twice
+104,G3M4R1,111,Male,Engineer,Married,No,"Rs. 50,000 – 75,000",Credit Card,Yes,everyday,Yes,everyday,Sometimes,1,very often,High,Low,Low,Low,Low,Low,High,Low,48,Yes,Tier 3,1,Yes,Twice
+105,G3M4R2,431,Male,Student,Not Married,Yes,Prefer Not to Say,UPI,No,I have never tried.,Yes,once or twice a week,Rarely,3,very often,High,Low,Low,Low,High,Low,Low,Low,24,No,Tier 3,2,No,Twice
+106,G3M4R3,444,Male,Scientist,Not Married,No,"Rs. 50,000 – 75,000",UPI,No,No,Yes,sometimes but not consistent,Never,1,Always,Low,Low,Low,High,Low,Low,Low,Low,25,No,Tier_2,2,No,No
+107,G3M4R4,311,Male,Student,Not Married,No,"Rs. 10,000 – 25,000",UPI,Yes,once or twice a week,Yes,everyday,Very Often,2,Always,High,High,Low,High,Low,Low,High,High,24,No,Tier 3,0,No,No
+108,G3M4R5,333,Female,Student,Not Married,No,Prefer Not to Say,Debit Card,Yes,sometimes but not consistent,No,No,Never,1,sometimes,High,High,Low,High,Low,Low,High,High,22,No,Tier_2,0,No,Twice
+109,G3M4R6,431,Male,Student,Not Married,No,Prefer Not to Say,Cash on Delivery,No,I have never tried.,Yes,everyday,Rarely,1,Always,High,Low,Low,Low,Low,Low,High,Low,22,No,Tier_1,0,No,No
+110,G3M4R7,422,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,once or twice a week,Yes,sometimes but not consistent,Sometimes,2,Always,High,Low,Low,Low,Low,Low,High,Low,22,No,Tier 3,0,No,Twice
+111,G3M4R8,144,Male,Manager,Not Married,No,"Rs. 10,000 – 25,000",Online Wallets,Yes,everyday,Yes,everyday,Sometimes,4,Always,Low,Low,Low,High,High,High,High,High,28,No,Tier_1,2,No,No
+112,G3M4R9,112,Male,Jobless,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,No,sometimes but not consistent,Never,1,Never,Low,Low,High,Low,High,Low,Low,High,23,No,Tier 3,2,Yes,Twice
+113,G3M5R1,221,Male,Team Lead,Not Married,No,"Rs. 50,000 – 75,000",UPI,Yes,sometimes but not consistent,Yes,everyday,Sometimes,1,sometimes,High,Low,Low,High,Low,Low,Low,High,31,No,Tier 3,2,No,Twice
+114,G3M5R2,311,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,Yes,sometimes but not consistent,Rarely,3,sometimes,High,High,Low,High,Low,High,High,High,24,No,Tier_2,2,Yes,Twice
+115,G3M5R3,211,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,No,Yes,once or twice a week,Sometimes,4,very often,High,Low,High,High,Low,Low,Low,Low,21,No,Tier 3,0,Yes,Twice
+116,G3M5R4,142,Male,Engineer,Not Married,No,"Rs. 50,000 – 75,000",UPI,Yes,once or twice a week,No,sometimes but not consistent,Never,1,Rarely,High,High,High,High,High,High,High,High,28,No,Tier_2,2,No,Twice
+117,G3M5R5,111,Male,Engineer,Not Married,No,"Rs. 25,000 – 50,000",Credit Card,No,I have never tried.,Yes,sometimes but not consistent,Rarely,4,sometimes,High,High,High,Low,Low,High,High,High,23,No,Tier_2,2,No,Twice
+118,G3M5R6,311,Male,Engineer,Not Married,No,"Rs. 1,00, 000 – 1,50,000",Credit Card,Yes,everyday,Yes,everyday,Never,0,Never,High,High,Low,High,Low,Low,High,Low,27,No,Tier 3,0,Yes,Twice
+119,G3M5R7,112,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Sometimes,2,sometimes,High,High,Low,High,High,Low,High,Low,26,No,Tier_1,2,Yes,Twice
+120,G3M5R8,113,Female,Officer,Married,No,"Rs. 50,000 – 75,000",UPI,No,No,Yes,sometimes but not consistent,Rarely,1,very often,High,Low,High,High,Low,Low,Low,Low,29,No,Tier_2,2,Yes,Twice
+121,G3M5R9,112,Male,Officer,Married,No,"Rs. 75,000 – 1,00,000",Credit Card,No,I have never tried.,Yes,everyday,Very Often,1,very often,High,High,High,High,Low,Low,High,Low,31,No,Tier_1,2,Yes,Twice
+122,G4M1R1,221,Male,Student,Not Married,No,"Rs. 10,000 – 25,000",Debit Card,Yes,sometimes but not consistent,Yes,everyday,Never,1,very often,High,High,Low,Low,High,High,Low,High,22,No,Tier_2,0,Yes,Twice
+123,G4M1R2,113,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,Yes,sometimes but not consistent,Rarely,2,Always,High,High,High,High,Low,High,High,High,22,No,Tier_1,0,No,Twice
+124,G4M1R3,233,Female,Senior executive,Not Married,No,"Rs. 50,000 – 75,000",Credit Card,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Rarely,2,sometimes,High,High,Low,High,Low,Low,High,Low,25,No,Tier_1,2,No,Twice
+125,G4M1R4,312,Male,Sales,Married,No,"Rs. 2,00,000 and above",Credit Card,No,I have never tried.,Yes,once or twice a week,Sometimes,1,Always,High,High,Low,High,Low,Low,High,Low,53,Yes,Tier_1,1,No,No
+126,G4M1R5,111,Male,Student,Not Married,Yes,"Rs. 10,000 – 25,000",UPI,Yes,once or twice a week,Yes,everyday,Sometimes,1,sometimes,High,Low,High,High,Low,Low,High,High,26,No,Tier 3,0,Yes,Twice
+127,G4M1R6,244,Male,Student,Not Married,No,"Rs. 10,000 – 25,000",UPI,No,I have never tried.,Yes,once or twice a week,Sometimes,2,very often,Low,Low,Low,High,Low,Low,High,High,22,No,Tier 3,0,No,No
+128,G4M1R7,244,Male,Engineer,Not Married,No,"Rs. 25,000 – 50,000",Credit Card,No,I have never tried.,sometimes but not consistent,Very Often,Sometimes,3,Always,High,High,Low,High,High,High,High,High,24,No,Tier_2,2,No,No
+129,G4M1R8,323,Male,Graphic Designer,Not Married,No,Prefer Not to Say,Credit Card,No,I have never tried.,Yes,once or twice a week,Sometimes,3,sometimes,High,High,High,Low,Low,Low,High,High,24,No,Tier 3,2,Yes,Twice
+130,G4M1R9,423,Male,Student,Not Married,NO,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,once or twice a week,Very Often,1,sometimes,High,High,High,Low,Low,Low,High,Low,24,No,Tier 3,0,No,No
+131,G4M2R1,321,Male,Analyst ,Not Married,No,"Rs. 50,000 – 75,000",UPI,No,No,Yes,sometimes but not consistent,Rarely,1,sometimes,High,High,Low,High,Low,Low,Low,Low,22,No,Tier_2,2,No,Twice
+132,G4M2R10,332,Female,Unemployed,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,once or twice a week,Very Often,2,very often,High,Low,Low,High,Low,Low,High,High,21,No,Tier_1,0,No,No
+133,G4M2R11,111,Male,Manager,Not Married,Yes,"Rs. 25,000 – 50,000",Credit Card,No,No,Yes,once or twice a week,Sometimes,3,Always,Low,Low,Low,High,Low,High,Low,High,31,No,Tier_1,2,Yes,Twice
+134,G4M2R12,132,Female,Engineer,Not Married,No,"Rs. 50,000 – 75,000",UPI,No,I have never tried.,Yes,sometimes but not consistent,Rarely,1,sometimes,High,Low,High,High,Low,High,Low,High,23,No,Tier_1,2,No,No
+135,G4M2R2,444,Female,Student,Not Married,No,Prefer Not to Say,Net Banking,No,I have never tried.,No,No,Rarely,1,sometimes,High,Low,Low,High,High,Low,High,Low,23,No,Tier_1,2,No,No
+136,G4M2R3,344,Male,Unemployed,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,No,once or twice a week,Never,1,sometimes,High,Low,Low,Low,Low,Low,Low,Low,24,No,Tier_2,2,No,No
+137,G4M2R4,244,Female,Freelancer,Not Married,No,Prefer Not to Say,Cash on Delivery,Yes,once or twice a week,Yes,once or twice a week,Rarely,2,very often,High,Low,High,High,Low,Low,High,High,22,No,Tier 3,0,No,No
+138,G4M2R5,334,Male,Data Analyst,Not Married,No,"Rs. 50,000 – 75,000",UPI,No,No,Yes,sometimes but not consistent,Rarely,4,very often,High,Low,Low,High,Low,Low,High,High,24,No,Tier 3,0,No,No
+139,G4M2R6,333,Male,Private Teacher,Not Married,Yes,Prefer Not to Say,UPI,No,I have never tried.,Yes,everyday,Rarely,2,sometimes,High,Low,Low,High,Low,Low,High,High,26,No,Tier_2,2,No,Twice
+140,G4M2R7,111,Male,Student,Not Married,No,"Rs. 10,000 – 25,000",UPI,No,I have never tried.,Yes,sometimes but not consistent,Very Often,1,very often,Low,High,Low,Low,Low,Low,Low,High,22,No,Tier 3,0,Yes,Twice
+141,G4M2R8,444,Female,Student,Not Married,No,Prefer Not to Say,Online Wallets,Yes,once or twice a week,Yes,everyday,Sometimes,1,sometimes,High,Low,Low,Low,Low,Low,High,High,23,No,Tier_2,0,No,No
+142,G4M2R9,344,Female,Process associate ,Not Married,No,"Rs. 10,000 – 25,000",UPI,No,I have never tried.,Yes,sometimes but not consistent,Never,1,very often,High,High,High,High,High,High,High,High,22,No,Tier 3,0,No,No
+143,G4M3R1,313,Male,Student,Not Married,No,Prefer Not to Say,Cash on Delivery,No,No,No,No,Sometimes,1,sometimes,High,Low,Low,Low,Low,Low,Low,Low,19,No,Tier_2,0,Yes,Twice
+144,G4M3R10,131,Male,GET,Not Married,No,"Rs. 25,000 – 50,000",Online Wallets,No,I have never tried.,No,No,Rarely,1,very often,High,Low,Low,High,High,Low,Low,Low,23,No,Tier 3,0,No,Twice
+145,G4M3R11,222,Male,Engineer,Not Married,No,"Rs. 10,000 – 25,000",UPI,No,No,No,No,Sometimes,1,very often,High,Low,Low,High,Low,Low,High,High,23,No,Tier 3,0,Yes,Twice
+146,G4M3R2,131,Male,Student,Not Married,No,"Rs. 10,000 – 25,000",UPI,No,I have never tried.,Yes,sometimes but not consistent,Sometimes,3,sometimes,Low,Low,Low,High,Low,Low,Low,Low,23,No,Tier_1,2,No,Twice
+147,G4M3R3,444,Male,Engineer,Not Married,No,"Rs. 25,000 – 50,000",UPI,No,No,Yes,once or twice a week,Sometimes,3,Always,High,Low,Low,High,Low,Low,High,High,23,No,Tier_1,0,No,No
+148,G4M3R4,111,Male,Business,Married,No,Prefer Not to Say,UPI,No,No,No,No,Sometimes,2,very often,High,Low,Low,High,Low,Low,High,High,38,Yes,Tier_2,1,Yes,Twice
+149,G4M3R5,112,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,No,No,No,Sometimes,1,Always,High,High,High,High,High,High,High,High,23,No,Tier_2,0,Yes,Twice
+150,G4M3R6,211,Male,Manager,Not Married,No,"Rs. 25,000 – 50,000",UPI,No,I have never tried.,No,No,Never,2,sometimes,High,Low,Low,Low,High,High,Low,High,23,No,Tier_2,2,Yes,No
+151,G4M3R7,432,Male,Manager,Married,No,Prefer Not to Say,Credit Card,Yes,once or twice a week,Yes,once or twice a week,Very Often,1,sometimes,High,Low,Low,High,Low,Low,High,High,27,No,Tier_2,2,No,Twice
+152,G4M3R8,334,Male,Lawyer,Married,No,Prefer Not to Say,Credit Card,Yes,sometimes but not consistent,Yes,once or twice a week,Sometimes,1,sometimes,High,High,Low,High,Low,Low,High,High,40,Yes,Tier_1,1,No,Twice
+153,G4M3R9,233,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,No,Yes,once or twice a week,Sometimes,1,very often,High,Low,High,High,Low,Low,High,High,23,No,Tier_2,0,No,Twice
+154,G4M4R1,324,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,I have never tried.,Yes,sometimes but not consistent,Never,1,very often,Low,Low,Low,Low,Low,Low,Low,High,25,No,Tier_1,2,No,Twice
+155,G4M4R10,331,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,I have never tried.,Yes,everyday,Rarely,2,sometimes,Low,Low,Low,High,Low,Low,High,High,25,No,Tier_1,2,No,Twice
+156,G4M4R2,334,Male,Business,Not Married,No,"Rs. 50,000 – 75,000",UPI,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Very Often,2,sometimes,High,Low,High,High,Low,High,Low,High,26,No,Tier_2,2,No,Twice
+157,G4M4R3,424,Male,SWO-A,Not Married,No,"Rs. 25,000 – 50,000",Debit Card,No,No,No,No,Never,1,Rarely,High,High,High,High,High,High,High,High,23,No,Tier_2,0,No,Twice
+158,G4M4R4,444,Male,Student,Not Married,No,Prefer Not to Say,Online Wallets,Yes,everyday,Yes,everyday,Sometimes,1,Always,High,Low,Low,Low,Low,Low,High,Low,25,No,Tier_1,0,No,Twice
+159,G4M4R5,213,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Rarely,2,very often,High,Low,Low,High,Low,Low,High,Low,26,No,Tier_2,2,Yes,Twice
+160,G4M4R6,444,Male,Engineer,Not Married,No,"Rs. 50,000 – 75,000",UPI,No,I have never tried.,Yes,sometimes but not consistent,Rarely,1,sometimes,High,Low,High,High,Low,High,Low,Low,24,No,Tier 3,2,No,Twice
+161,G4M4R7,322,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,I have never tried.,No,once or twice a week,Never,1,sometimes,High,Low,Low,Low,Low,Low,Low,Low,26,No,Tier_1,2,Yes,Twice
+162,G4M4R8,323,Male,Engineer,Not Married,No,Prefer Not to Say,UPI,No,sometimes but not consistent,Yes,sometimes but not consistent,Never,1,very often,High,High,High,High,High,High,High,High,27,No,Tier_1,2,Yes,Twice
+163,G4M4R9,434,Male,Get,Not Married,No,"Rs. 25,000 – 50,000",UPI,Yes,sometimes but not consistent,Yes,once or twice a week,Sometimes,1,very often,High,High,Low,High,Low,Low,High,High,25,No,Tier_1,0,No,Twice
+164,G5M1R1,133,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,No,No,No,Never,1,sometimes,High,High,Low,Low,Low,High,Low,High,22,No,Tier_2,2,No,Twice
+165,G5M1R10,211,Male,Student,Not Married,No,"Rs. 10,000 – 25,000",UPI,No,No,No,No,Sometimes,3,Always,High,Low,Low,High,Low,Low,High,Low,22,No,Tier 3,0,Yes,Twice
+166,G5M1R2,412,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,No,Yes,once or twice a week,Always,1,Daily,High,High,High,Low,High,High,High,High,23,No,Tier_1,0,Yes,Twice
+167,G5M1R3,123,Male,Manager,Married,No,"Rs. 1,50, 000 – 2,00, 000",Credit Card,Yes,Everyday,Yes,Everyday,Always,0,Never,High,High,High,High,High,High,High,High,53,Yes,Tier 3,1,No,Twice
+168,G5M1R4,224,Female,Housewife,Married,No,Prefer Not to Say,Cash on Delivery,Yes,Everyday,Yes,Everyday,Always,2,Daily,High,High,Low,High,Low,Low,High,Low,49,Yes,Tier_2,1,Yes,Twice
+169,G5M1R5,113,Male,Student,Not Married,No,Prefer Not to Say,Debit Card,No,No,Yes,once or twice a week,Always,1,sometimes,High,High,High,High,Low,High,Low,High,28,No,Tier 3,2,No,Twice
+170,G5M1R6,212,Female,Get,Not Married,No,"Rs. 25,000 – 50,000",UPI,No,No,No,No,Rarely,1,sometimes,High,Low,Low,High,Low,Low,Low,High,22,No,Tier 3,0,Yes,Twice
+171,G5M1R7,113,Female,Student,Not Married,No,"Rs. 10,000 – 25,000",UPI,No,No,No,No,Never,2,very often,Low,Low,Low,High,Low,High,Low,High,24,No,Tier_2,2,Yes,Twice
+172,G5M1R8,331,Male,Engineer,Not Married,No,"Rs. 25,000 – 50,000",Debit Card,No,No,No,No,Never,1,sometimes,High,Low,High,High,Low,High,Low,High,21,No,Tier 3,0,No,Twice
+173,G5M1R9,113,Female,PhD Student,Not Married,No,"Rs. 25,000 – 50,000",UPI,Yes,everyday,Yes,once or twice a week,Always,2,sometimes,High,High,Low,High,Low,High,High,High,23,No,Tier_1,0,No,Twice
+174,G5M2R1,211,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,everyday,Yes,once or twice a week,Very Often,2,very often,High,Low,Low,High,Low,High,Low,Low,22,No,Tier_2,0,Yes,Twice
+175,G5M2R10,233,Male,GET,Not Married,No,"Rs. 25,000 – 50,000",UPI,No,No,No,No,Sometimes,2,very often,High,Low,Low,High,Low,Low,Low,High,23,No,Tier_1,0,No,Twice
+176,G5M2R2,322,Female,Student,Not Married,No,Prefer Not to Say,UPI,No,No,Yes,sometimes but not consistent,Rarely,3,Always,Low,Low,High,High,High,Low,Low,Low,21,No,Tier_2,2,No,Twice
+177,G5M2R3,334,Female,Student,Not Married,No,Prefer Not to Say,Cash on Delivery,No,sometimes but not consistent,Yes,once or twice a week,Always,2,sometimes,High,High,High,High,Low,Low,High,Low,21,No,Tier 3,0,No,No
+178,G5M2R4,434,Female,Student,Not Married,No,"Rs. 75,000 – 1,00,000",UPI,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Sometimes,4,sometimes,High,Low,Low,Low,Low,High,Low,High,21,No,Tier 3,0,No,Twice
+179,G5M2R5,233,Male,Unemployed,Not Married,No,Prefer Not to Say,Cash on Delivery,Yes,everyday,Yes,everyday,Always,1,Always,High,Low,High,High,Low,Low,Low,High,23,No,Tier_2,0,No,Twice
+180,G5M2R6,123,Male,Intern,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,Yes,sometimes but not consistent,Sometimes,2,very often,High,Low,Low,Low,Low,High,Low,High,24,No,Tier_2,2,No,No
+181,G5M2R7,231,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Very Often,2,sometimes,High,Low,High,High,High,High,High,High,19,No,Tier 3,0,No,Twice
+182,G5M2R8,312,Female,Client relation,Not Married,No,"Rs. 10,000 – 25,000",UPI,Yes,once or twice a week,Yes,once or twice a week,Always,2,sometimes,High,Low,High,High,Low,Low,Low,High,23,No,Tier_2,2,Yes,Twice
+183,G5M2R9,231,Male,Technical officer,Married,No,"Rs. 1,50, 000 – 2,00, 000",Net Banking,Yes,everyday,Yes,everyday,Always,1,sometimes,Low,High,Low,High,High,Low,High,High,56,Yes,Tier_2,1,No,Twice
+184,G5M3R1,211,Male,Unemployed,Not Married,No,Prefer Not to Say,Any Other,No,No,No,No,Rarely,3,very often,High,Low,Low,High,Low,Low,High,High,26,No,Tier 3,2,Yes,Twice
+185,G5M3R10,121,Male,Manager,Not Married,No,"Rs. 1,00, 000 – 1,50,000",UPI,No,No,Yes,sometimes but not consistent,Sometimes,2,very often,High,Low,Low,Low,Low,Low,Low,High,25,No,Tier_1,2,Yes,Twice
+186,G5M3R11,222,Male,AC,Not Married,No,Prefer Not to Say,Any Other,No,No,No,No,Sometimes,1,sometimes,High,Low,Low,High,High,Low,Low,Low,28,No,Tier 3,2,Yes,Twice
+187,G5M3R12,321,Male,Credit Associate,Not Married,Yes,Prefer Not to Say,Debit Card,No,I have never tried.,Yes,sometimes but not consistent,Sometimes,5,Always,High,Low,Low,High,Low,Low,High,Low,27,No,Tier 3,2,No,No
+188,G5M3R13,211,Male,Unemployed,Not Married,No,"Rs. 10,000 – 25,000",UPI,No,I have never tried.,Yes,sometimes but not consistent,Rarely,1,Always,High,Low,Low,High,Low,Low,High,High,26,No,Tier 3,2,Yes,Twice
+189,G5M3R14,212,Male,Consultant,Not Married,No,Prefer Not to Say,Credit Card,Yes,sometimes but not consistent,Yes,everyday,Sometimes,1,sometimes,High,Low,High,High,High,Low,Low,High,26,No,Tier_2,2,Yes,Twice
+190,G5M3R15,211,Male,Engineer,Not Married,No,"Rs. 75,000 – 1,00,000",Credit Card,Yes,everyday,Yes,everyday,Never,1,very often,High,Low,Low,Low,Low,Low,High,High,31,No,Tier_1,2,Yes,Twice
+191,G5M3R16,322,Male,Manager,Married,No,Prefer Not to Say,UPI,No,No,Yes,everyday,Never,2,sometimes,High,High,Low,Low,Low,Low,Low,Low,29,No,Tier_2,2,Yes,Twice
+192,G5M3R2,222,Female,Housewife,Married,No,Prefer Not to Say,Debit Card,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Sometimes,2,sometimes,High,High,Low,Low,Low,Low,Low,High,33,No,Tier 3,2,No,Twice
+193,G5M3R3,333,Female,Unemployed,Not Married,No,Prefer Not to Say,UPI,No,No,Yes,sometimes but not consistent,Rarely,1,sometimes,High,Low,High,High,Low,Low,Low,Low,25,No,Tier_2,2,No,Twice
+194,G5M3R4,144,Male,Team Lead,Not Married,Yes,"Rs. 25,000 – 50,000",Any Other,No,I have never tried.,No,sometimes but not consistent,Sometimes,1,sometimes,Low,Low,Low,Low,Low,Low,Low,Low,26,No,Tier 3,2,No,No
+195,G5M3R5,111,Male,Senior operations officer,Not Married,Yes,"Rs. 50,000 – 75,000",UPI,No,I have never tried.,No,No,Sometimes,1,Always,High,High,High,Low,High,Low,High,Low,27,No,Tier 3,2,Yes,Twice
+196,G5M3R6,422,Male,Manager,Not Married,No,"Rs. 75,000 – 1,00,000",UPI,No,No,No,No,Never,1,sometimes,Low,Low,Low,Low,Low,Low,Low,Low,0,No,Tier_1,0,No,Twice
+197,G5M3R7,322,Male,Travel Agent,Not Married,No,"Rs. 50,000 – 75,000",Debit Card,No,I have never tried.,Yes,sometimes but not consistent,Very Often,2,very often,High,Low,Low,High,High,Low,Low,Low,31,No,Tier_2,2,Yes,Twice
+198,G5M3R8,112,Female,Housewife,Married,Yes,Prefer Not to Say,UPI,Yes,sometimes but not consistent,No,No,Sometimes,2,very often,Low,Low,Low,Low,Low,Low,Low,Low,45,Yes,Tier_2,1,Yes,Twice
+199,G5M3R9,211,Male,Data Scientist,Not Married,No,"Rs. 1,00, 000 – 1,50,000",Credit Card,Yes,once or twice a week,Yes,sometimes but not consistent,Sometimes,2,very often,High,High,High,High,Low,Low,Low,High,25,No,Tier_2,2,Yes,Twice
+200,G5M4R1,143,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,Yes,everyday,Rarely,2,sometimes,High,Low,Low,Low,Low,High,High,Low,18,No,Tier 3,0,No,No
+201,G5M4R10,343,Male,Engineer,Not Married,No,"Rs. 25,000 – 50,000",UPI,Yes,everyday,Yes,everyday,Sometimes,3,very often,High,Low,Low,Low,Low,Low,High,Low,24,No,Tier_1,0,No,No
+202,G5M4R11,341,Female,Student ,Not Married,No,Prefer Not to Say,Cash on Delivery,No,once or twice a week,No,everyday,Very Often,1,Always,Low,Low,Low,Low,Low,High,High,High,19,No,Tier 3,0,No,Yes
+203,G5M4R12,344,Male,Student,Not Married,No,"Rs. 2,00,000 and above",UPI,No,I have never tried.,Yes,everyday,Never,2,very often,High,High,High,High,High,High,High,High,22,No,Tier_2,0,No,No
+204,G5M4R13,344,Male,Manager,Married,No,Prefer Not to Say,UPI,No,I have never tried.,No,everyday,Always,1,Always,High,High,High,High,High,High,High,High,51,Yes,Tier 3,1,No,No
+205,G5M4R14,244,Male,Get ,Not Married,Yes,"Rs. 50,000 – 75,000",UPI,Yes,once or twice a week,Yes,once or twice a week,Sometimes,1,sometimes,High,High,High,High,High,High,High,High,22,No,Tier 3,0,No,No
+206,G5M4R15,244,Female,Teacher,Married,No,"Rs. 75,000 – 1,00,000",UPI,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Very Often,2,very often,High,High,High,High,High,High,High,High,44,Yes,Tier 3,1,No,No
+207,G5M4R16,134,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,No,No,Sometimes,2,very often,Low,Low,High,Low,Low,Low,High,High,20,No,Tier_2,0,No,Twice
+208,G5M4R18,223,Male,Student,Not Married,No,Prefer Not to Say,Cash on Delivery,No,I have never tried.,Yes,sometimes but not consistent,Sometimes,1,Always,Low,Low,Low,High,Low,High,High,Low,20,No,Tier 3,0,Yes,Twice
+209,G5M4R19,221,Male,Student,Not Married,No,Prefer Not to Say,Any Other,Yes,everyday,Yes,everyday,Sometimes,2,Rarely,High,High,High,Low,High,Low,High,High,19,No,Tier 3,0,No,No
+210,G5M4R2,243,Female,Engineer,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,everyday,Always,1,Always,High,Low,Low,High,High,Low,High,High,19,No,Tier 3,0,No,Twice
+211,G5M4R20,241,Female,Student,Not Married,No,Prefer Not to Say,UPI,Yes,once or twice a week,Yes,once or twice a week,Very Often,2,Always,High,High,High,High,High,High,High,High,21,No,Tier 3,0,No,Twice
+212,G5M4R21,122,Male,Engineer,Not Married,No,"Rs. 25,000 – 50,000",UPI,No,once or twice a week,Yes,once or twice a week,Very Often,2,Always,High,High,High,High,High,High,High,High,22,No,Tier_1,0,Yes,Twice
+213,G5M4R22,144,Female,Dancer,Not Married,No,"Rs. 1,00, 000 – 1,50,000",Debit Card,Yes,sometimes but not consistent,Yes,once or twice a week,Very Often,3,very often,High,High,High,High,High,High,High,High,21,No,Tier 3,0,No,No
+214,G5M4R3,442,Male,Student,Not Married,No,Prefer Not to Say,Debit Card,No,sometimes but not consistent,Yes,everyday,Rarely,4,very often,High,Low,Low,Low,High,Low,Low,High,19,No,Tier 3,0,No,Twice
+215,G5M4R4,444,Male,Student ,Not Married,No,Prefer Not to Say,Cash on Delivery,Yes,everyday,Yes,everyday,Very Often,3,Always,High,Low,Low,High,Low,Low,High,High,20,No,Tier 3,0,No,No
+216,G5M4R5,444,Male,Student,Not Married,No,Prefer Not to Say,Debit Card,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Sometimes,1,Always,High,Low,Low,Low,Low,Low,High,High,21,No,Tier 3,0,No,No
+217,G5M4R6,442,Male,Engineer,Not Married,No,"Rs. 10,000 – 25,000",UPI,Yes,sometimes but not consistent,Yes,once or twice a week,Never,1,Always,High,High,High,High,High,High,High,High,23,No,Tier 3,0,No,No
+218,G5M4R7,443,Male,Engineer,Not Married,Yes,"Rs. 25,000 – 50,000",UPI,No,I have never tried.,Yes,once or twice a week,Sometimes,2,Rarely,High,Low,Low,Low,Low,Low,High,High,29,No,Tier 3,2,No,No
+219,G5M4R8,442,Female,Unemployed,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,once or twice a week,Always,4,very often,High,High,High,High,High,High,High,High,20,No,Tier_2,0,No,Yes
+220,G5M4R9,344,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,Yes,sometimes but not consistent,Very Often,1,Always,High,High,High,High,High,High,High,High,22,No,Tier_2,2,No,No
+221,G5M5R1,331,Male,Engineer,Married,Yes,"Rs. 75,000 – 1,00,000",UPI,Yes,sometimes but not consistent,Yes,everyday,Sometimes,2,Always,High,Low,High,High,High,High,Low,Low,49,Yes,Tier_1,1,No,No
+222,G5M5R2,144,Male,Teacher,Married,No,"Rs. 25,000 – 50,000",UPI,Yes,everyday,Yes,everyday,Never,2,sometimes,High,High,High,High,High,High,High,Low,46,Yes,Tier_2,1,No,No
+223,G5M5R3,343,Female,Manager,Not Married,No,Prefer Not to Say,UPI,Yes,everyday,Yes,everyday,Sometimes,3,sometimes,Low,Low,High,Low,High,High,Low,High,31,No,Tier_2,2,No,Twice
+224,G5M5R4,142,Male,Customer Service Executive,Not Married,Yes,"Rs. 50,000 – 75,000",UPI,Yes,once or twice a week,Yes,everyday,Sometimes,4,sometimes,High,Low,High,High,Low,High,Low,High,29,No,Tier_2,2,No,No
+225,G5M5R5,443,Male,Engineer,Married,Yes,"Rs. 75,000 – 1,00,000",UPI,Yes,sometimes but not consistent,Yes,everyday,Never,4,Always,High,High,High,High,High,High,Low,High,43,Yes,Tier_1,1,No,No
+226,G5M5R6,444,Male,Manager,Not Married,Yes,Prefer Not to Say,UPI,Yes,once or twice a week,Yes,everyday,Never,1,sometimes,High,Low,High,High,Low,High,Low,High,30,No,Tier_1,2,No,No
+227,G6M1R1,331,Male,Engineer,Not Married,No,"Rs. 25,000 – 50,000",UPI,No,I have never tried.,Yes,sometimes but not consistent,Rarely,4,sometimes,High,Low,Low,Low,High,High,Low,Low,25,No,Tier_2,2,No,Twice
+228,G6M1R10,322,Male,Engineer,Not Married,No,"Rs. 50,000 – 75,000",UPI,No,I have never tried.,Yes,everyday,Rarely,2,Sometimes,High,High,Low,High,High,High,Low,High,24,No,Tier 3,2,Yes,Twice
+229,G6M1R2,221,Male,Engineer,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,Yes,sometimes but not consistent,Sometimes,1,Very often,High,Low,Low,High,Low,Low,High,High,25,No,Tier 3,2,Yes,Twice
+230,G6M1R3,211,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,everyday,Yes,everyday,Very Often,1,very often,High,Low,High,High,Low,Low,High,High,23,No,Tier_2,0,Yes,Twice
+231,G6M1R5,341,Male,Student,Not Married,No,Prefer Not to Say,Debit Card,No,No,Yes,everyday,Sometimes,2,sometimes,High,Low,Low,High,Low,Low,High,High,24,No,Tier_2,2,No,Twice
+232,G6M1R6,212,Male,Engineer,Not Married,No,Prefer Not to Say,UPI,No,No,No,No,Always,2,sometimes,Low,Low,Low,Low,Low,Low,Low,Low,24,No,Tier_2,2,Yes,Twice
+233,G6M1R7,443,Male,Recruiter,Not Married,No,"Rs. 25,000 – 50,000",UPI,Yes,once or twice a week,Yes,everyday,Sometimes,1,sometimes,High,Low,Low,High,High,High,High,High,25,No,Tier 3,0,No,No
+234,G6M1R8,223,Female,Lecturer,Married,No,"Rs. 50,000 – 75,000",UPI,No,I have never tried.,Yes,sometimes but not consistent,Always,2,very often,High,High,High,High,High,High,High,High,30,No,Tier 3,2,No,Twice
+235,G6M1R9,144,Male,Student,Not Married,No,Prefer Not to Say,Debit Card,No,I have never tried.,No,No,Sometimes,1,sometimes,Low,Low,Low,High,Low,High,Low,High,23,No,Tier_2,2,No,No
+236,G6M2R1,211,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,No,sometimes but not consistent,Never,1,very often,High,High,Low,Low,Low,Low,High,Low,24,No,Tier_1,2,Yes,Twice
+237,G6M2R10,234,Male,Engineer,Not Married,No,"Rs. 25,000 – 50,000",UPI,No,I have never tried.,Yes,sometimes but not consistent,Very Often,3,Always,Low,High,High,High,High,Low,High,High,25,No,Tier 3,2,No,No
+238,G6M2R11,423,Female,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,No,sometimes but not consistent,Sometimes,3,sometimes,High,Low,Low,High,Low,Low,Low,Low,23,No,Tier 3,2,Yes,Twice
+239,G6M2R12,111,Male,Accountant,Not Married,No,"Rs. 25,000 – 50,000",Credit Card,No,sometimes but not consistent,Yes,sometimes but not consistent,Sometimes,2,sometimes,High,High,Low,High,Low,Low,High,High,26,No,Tier_2,2,Yes,Twice
+240,G6M2R13,442,Male,Manager,Not Married,No,"Rs. 25,000 – 50,000",UPI,No,I have never tried.,No,sometimes but not consistent,Rarely,2,very often,High,Low,Low,High,Low,Low,Low,High,25,No,Tier_1,2,No,Twice
+241,G6M2R14,211,Female,Functional expert,Not Married,No,"Rs. 50,000 – 75,000",UPI,No,I have never tried.,No,sometimes but not consistent,Sometimes,2,very often,High,Low,High,High,High,High,High,High,24,No,Tier 3,2,Yes,Twice
+242,G6M2R15,332,Male,Engineer,Not Married,No,"Rs. 25,000 – 50,000",UPI,Yes,once or twice a week,Yes,sometimes but not consistent,Sometimes,2,sometimes,High,Low,Low,Low,Low,Low,High,High,27,No,Tier 3,2,No,No
+243,G6M2R2,421,Male,BIS Scientist,Not Married,No,"Rs. 75,000 – 1,00,000",UPI,No,sometimes but not consistent,No,sometimes but not consistent,Sometimes,3,very often,High,High,Low,High,Low,Low,High,Low,25,No,Tier_2,2,Yes,No
+244,G6M2R3,434,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,No,Yes,sometimes but not consistent,Rarely,3,very often,High,Low,Low,High,Low,Low,High,Low,22,No,Tier_2,0,No,Twice
+245,G6M2R4,321,Male,Engineer,Not Married,No,"Rs. 1,00, 000 – 1,50,000",UPI,No,I have never tried.,No,sometimes but not consistent,Rarely,2,very often,High,High,Low,High,Low,Low,High,Low,28,No,Tier 3,2,No,Twice
+246,G6M2R5,112,Male,Manager,Not Married,No,"Rs. 50,000 – 75,000",UPI,No,I have never tried.,Yes,sometimes but not consistent,Very Often,1,Always,High,High,High,High,Low,High,Low,Low,24,No,Tier 3,2,Yes,Twice
+247,G6M2R6,113,Male,Manager,Not Married,No,"Rs. 1,00, 000 – 1,50,000",UPI,No,I have never tried.,Yes,everyday,Very Often,1,very often,High,High,Low,High,Low,Low,High,High,25,No,Tier 3,0,Yes,Twice
+248,G6M2R7,214,Male,Student,Not Married,No,"Rs. 25,000 – 50,000",UPI,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Very Often,2,sometimes,High,Low,Low,Low,Low,Low,High,High,26,No,Tier_2,2,Yes,No
+249,G6M2R8,432,Male,Student,Not Married,No,Prefer Not to Say,Debit Card,No,I have never tried.,No,No,Sometimes,1,Rarely,High,High,High,High,High,High,High,Low,26,No,Tier 3,2,No,Twice
+250,G6M2R9,333,Male,Engineer,Not Married,No,Prefer Not to Say,Any Other,Yes,everyday,Yes,everyday,Always,1,Always,High,High,High,High,High,High,High,High,26,No,Tier_2,2,No,Twice
+251,G6M3R01,223,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,everyday,Yes,everyday,Very Often,3,sometimes,High,Low,Low,High,Low,Low,High,High,23,No,Tier 3,0,Yes,Twice
+252,G6M3R02,421,Female,Student,Not Married,No,"Rs. 1,50, 000 – 2,00, 000",UPI,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Rarely,3,sometimes,High,Low,High,High,High,Low,High,Low,24,No,Tier 3,0,Yes,Twice
+253,G6M3R03,444,Female,Intern,Not Married,Yes,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,everyday,Sometimes,3,sometimes,High,Low,Low,High,Low,Low,High,Low,22,No,Tier_1,0,No,No
+254,G6M3R04,444,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,Yes,everyday,Sometimes,1,very often,Low,Low,Low,Low,Low,Low,Low,Low,23,No,Tier_2,2,No,No
+255,G6M3R05,441,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,everyday,Sometimes,1,sometimes,High,Low,High,High,High,Low,High,High,24,No,Tier 3,0,No,Twice
+256,G6M3R06,422,Female,Engineer,Not Married,No,"Rs. 25,000 – 50,000",Debit Card,No,sometimes but not consistent,Yes,once or twice a week,Sometimes,1,sometimes,High,High,High,High,Low,Low,High,High,22,No,Tier 3,0,No,Twice
+257,G6M3R07,442,Male,Student,Not Married,No,"Rs. 10,000 – 25,000",UPI,Yes,everyday,Yes,everyday,Rarely,5,very often,High,Low,High,High,High,High,High,High,21,No,Tier 3,0,No,Twice
+258,G6M3R08,122,Male,Student,Not Married,Yes,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Sometimes,1,Always,High,High,Low,High,High,High,Low,High,23,No,Tier 3,0,Yes,Twice
+259,G6M3R09,444,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,sometimes but not consistent,Yes,everyday,Never,1,Rarely,High,Low,Low,High,Low,Low,High,High,22,No,Tier_2,0,No,Yes
+260,G6M3R10,243,Male,Student ,Not Married,No,"Rs. 10,000 – 25,000",UPI,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Sometimes,1,Always,Low,Low,Low,Low,Low,Low,Low,Low,23,No,Tier 3,0,No,No
+261,G6M3R11,142,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,sometimes but not consistent,Sometimes,1,very often,Low,Low,Low,High,High,High,Low,Low,23,No,Tier 3,0,No,No
+262,G6M3R12,221,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,everyday,Sometimes,2,very often,High,Low,Low,High,High,Low,Low,High,22,No,Tier 3,0,No,Twice
+263,G6M3R13,433,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,everyday,Very Often,2,Always,High,Low,Low,High,Low,Low,Low,High,22,No,Tier_2,0,Yes,Twice
+264,G6M3R14,312,Male,Engineer,Not Married,No,"Rs. 10,000 – 25,000",UPI,Yes,sometimes but not consistent,No,sometimes but not consistent,Rarely,1,Always,High,Low,Low,High,Low,Low,Low,High,23,No,Tier_2,0,No,Twice
+265,G6M3R15,231,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,sometimes but not consistent,No,sometimes but not consistent,Sometimes,1,Always,High,High,High,High,Low,High,High,High,23,No,Tier_2,0,No,No
+266,G6M3R16,432,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,everyday,Sometimes,0,Always,High,Low,High,High,High,High,High,High,21,No,Tier 3,0,No,Twice
+267,G6M3R17,444,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,sometimes but not consistent,Yes,once or twice a week,Sometimes,1,Rarely,High,Low,Low,High,Low,High,Low,High,22,No,Tier_2,0,No,No
+268,G6M3R18,121,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,Yes,everyday,Rarely,1,very often,High,High,High,High,Low,High,High,High,21,No,Tier_2,0,Yes,Twice
+269,G6M3R19,442,Female,Student,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,No,sometimes but not consistent,Rarely,1,very often,High,Low,Low,High,Low,Low,High,High,18,No,Tier_2,0,No,No
+270,G6M3R20,121,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,No,No,Very Often,1,sometimes,High,Low,High,High,High,High,Low,High,21,No,Tier 3,0,No,Twice
+271,G6M3R21,123,Female,Research Scholar,Not Married,No,Prefer Not to Say,Cash on Delivery,No,sometimes but not consistent,No,sometimes but not consistent,Always,2,very often,High,Low,High,High,Low,High,Low,High,24,No,Tier 3,2,Yes,Twice
+272,G6M4R1,213,Female,Student,Not Married,No,Prefer Not to Say,Cash on Delivery,Yes,sometimes but not consistent,Yes,once or twice a week,Sometimes,1,Always,High,High,Low,High,Low,Low,Low,High,20,No,Tier_2,0,Yes,No
+273,G6M4R10,423,Male,Unemployed,Not Married,No,Prefer Not to Say,UPI,Yes,sometimes but not consistent,Yes,everyday,Very Often,1,very often,High,Low,Low,High,Low,Low,Low,Low,22,No,Tier_1,0,No,Twice
+274,G6M4R11,111,Male,Student,Not Married,No,Prefer Not to Say,Cash on Delivery,No,sometimes but not consistent,Yes,once or twice a week,Sometimes,1,very often,Low,Low,Low,Low,High,Low,Low,Low,19,No,Tier_2,0,No,Twice
+275,G6M4R12,212,Male,Student,Not Married,no,"Rs. 50,000 – 75,000",UPI,No,once or twice a week,Yes,once or twice a week,Rarely,1,Always,High,Low,Low,High,High,High,High,High,18,No,Tier_2,0,Yes,No
+276,G6M4R2,224,Female,Student ,Not Married,No,Prefer Not to Say,Cash on Delivery,No,sometimes but not consistent,Yes,sometimes but not consistent,Very Often,1,very often,High,Low,High,High,High,High,Low,High,21,No,Tier_2,0,No,Twice
+277,G6M4R3,422,Female,Student,Not Married,No,Prefer Not to Say,UPI,Yes,everyday,Yes,everyday,Sometimes,3,Always,Low,Low,Low,High,Low,Low,High,High,21,No,Tier_2,0,No,Twice
+278,G6M4R4,322,Male,Student,Not Married,No,Prefer Not to Say,UPI,Yes,everyday,Yes,everyday,Very Often,4,Always,High,Low,Low,Low,Low,Low,High,High,31,No,Tier 3,2,Yes,Twice
+279,G6M4R5,211,Male,Student,Not Married,No,"Rs. 10,000 – 25,000",UPI,Yes,once or twice a week,No,sometimes but not consistent,Sometimes,2,very often,Low,Low,Low,High,Low,Low,High,Low,25,No,Tier 3,0,Yes,Twice
+280,G6M4R6,422,Male,Self employed,Not Married,No,Prefer Not to Say,UPI,No,sometimes but not consistent,Yes,sometimes but not consistent,Rarely,2,sometimes,Low,Low,Low,High,Low,Low,Low,High,24,No,Tier_2,2,Yes,No
+281,G6M4R7,344,Male,Business,Not Married,Yes,"Rs. 25,000 – 50,000",Cash on Delivery,No,I have never tried.,Yes,sometimes but not consistent,Rarely,1,sometimes,Low,Low,Low,High,Low,High,Low,High,26,No,Tier 3,2,No,Twice
+282,G6M4R8,431,Male,Student,Not Married,No,"Rs. 10,000 – 25,000",UPI,Yes,sometimes but not consistent,Yes,everyday,Sometimes,5,Always,High,High,High,High,High,High,High,High,0,No,Tier 3,0,No,Twice
+283,G6M4R9,444,Female,Working,Not Married,No,"Rs. 25,000 – 50,000",Online Wallets,Yes,once or twice a week,No,everyday,Sometimes,2,very often,High,Low,High,High,Low,Low,High,High,24,No,Tier 3,0,No,No
+284,G6M5R1,134,Male,Student,Not Married,No,Prefer Not to Say,UPI,No,once or twice a week,Yes,everyday,Sometimes,3,very often,High,High,High,High,High,Low,Low,High,25,No,Tier 3,2,No,Twice
+285,G6M5R2,121,Female,Student,Not Married,No,Prefer Not to Say,UPI,No,I have never tried.,Yes,everyday,Rarely,3,very often,High,High,Low,High,Low,Low,High,High,21,No,Tier 3,0,Yes,Twice
+286,G6M5R3,134,Female,Pharmacist,Not Married,No,"Rs. 25,000 – 50,000",UPI,Yes,once or twice a week,Yes,sometimes but not consistent,Sometimes,1,Always,High,Low,High,High,High,High,High,High,23,No,Tier_2,0,No,Twice
+287,G6M5R4,444,Male,Engineer,Not Married,No,"Rs. 50,000 – 75,000",UPI,No,I have never tried.,Yes,sometimes but not consistent,Sometimes,1,Always,High,High,High,High,High,High,High,High,24,No,Tier_1,2,No,No
