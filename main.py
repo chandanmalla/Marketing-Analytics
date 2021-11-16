@@ -11,6 +11,7 @@ from PIL import Image
 import time
 import plotly.express as px
 import streamlit as st
+from pywaffle import Waffle
 
 combined_data = pd.read_csv('Combined_data-Part_3.csv')
 
@@ -21,7 +22,7 @@ st.sidebar.title('Marketing Analytics Project')
 st.subheader('Group 3')
 st.write('Chandan Malla, Niranjan, Sheshachandra, Ghulam, Prajwal')
 
-selectbox = st.selectbox('Which section you want to go to?', ['1. Introduction', '2. EDA-Univariate','3. EDA-Multivariate'])
+selectbox = st.selectbox('Which section you want to go to?', ['1. Introduction', '2. EDA-Univariate','3. EDA-Multivariate','4. RFM and Market Basket Analysis'])
 
 
 if selectbox=='1. Introduction':
@@ -115,6 +116,8 @@ if selectbox=='1. Introduction':
     st.write('8.**Participated_in_Sale**: The buyers were separated into three group who \'Never Participated\', \'Participated once\',\'Participated more than once\'')
     st.write('9.**More than Average**: This feature was added to classify if a "buyer" was buying in more number of categories than "Average number of purchase categories per buyer( in our case it was 4 .8)"')
 
+    st.subheader('5. Data Cleaning')
+    st.write('Let\'s not discuss this part!!!!!!')
 ###############################################EDA#####################################################################33
 
 
@@ -174,7 +177,7 @@ elif selectbox=='2. EDA-Univariate':
                                                                                                         ascending=False).reset_index()
             fig = px.bar(data_frame=temp[0:20], x=column_for_discrete, y='Quantity', color=None,
                         facet_row=None, facet_col=None,width=1500, height=700, )
-            fig.update_layout(barmode='overlay')
+            fig.update_layout(barmode='group')
             fig.update_traces(opacity=0.70)
             st.subheader('I.) Univariate Analysis on Top '+column_for_discrete)
             st.plotly_chart(fig)
@@ -214,9 +217,9 @@ elif selectbox=='2. EDA-Univariate':
         st.sidebar.subheader('Survey Data')
         st.header('1.) Categorical Data')
 
-        column_for_categorical_sur = st.sidebar.selectbox("Select a Discrete Column:", categorical_sur)
+        column_for_categorical_sur = st.sidebar.selectbox("Select a Categorical Column:", categorical_sur)
         column_for_discrete_sur = st.sidebar.selectbox("Select a Discrete Column:", discrete_sur)
-        column_for_continuous_sur = st.sidebar.selectbox("Select a Discrete Column:", continuous_sur)
+        column_for_continuous_sur = st.sidebar.selectbox("Select a Continuous Column:", continuous_sur)
 
         if (column_for_categorical_sur):
             fig = px.histogram(data_frame=survey_data, y=None, x=column_for_categorical_sur, color=None,
@@ -262,4 +265,152 @@ elif selectbox=='2. EDA-Univariate':
 
 
 elif selectbox=='3. EDA-Multivariate':
-    st.write('hi')
+
+    selection_data = st.selectbox("Select the Data for which you want EDA:",
+                                  ['Purchase_Data/Combined_data', 'Survey_Data'])
+    st.write('Coding Language: ```Python```')
+    st.write('Libraries Used for EDA: ```pywaffle, prettytable, plotly, matplotlib, seaborn```')
+
+    if selection_data == 'Purchase_Data/Combined_data':
+        columns = [None, 'GST%%', 'City_Tier', 'Sale', 'Covid', 'Month', 'Year', 'WEEKDAY',
+                   'Log_Final Price',
+                   'Time_Month', 'Gender', 'Marital Status',
+                   'Do you have to care for anyone with chronic illness?',
+                   'Do you practise meditation? Yes/No',
+                   'Do you do any form of exercise?', 'Collectiv',
+                   'Life_Satsif', 'Indiv', 'LongTermOri', 'ShortTermOri', 'Materialism',
+                   'Spiritualism', 'EnvBehav', 'has_child', 'Lives_in_city_tier',
+                   'Clusters', 'More_than_average']
+
+        column_x = ['Age','Log_Final Price','GST%%', 'City_Tier', 'Sale', 'Covid', 'Month', 'Year', 'WEEKDAY',
+                   'Log_Final Price',
+                   'Time_Month', 'Gender', 'Marital Status',
+                   'Do you have to care for anyone with chronic illness?',
+                   'Do you practise meditation? Yes/No',
+                   'Do you do any form of exercise?', 'Collectiv',
+                   'Life_Satsif', 'Indiv', 'LongTermOri', 'ShortTermOri', 'Materialism',
+                   'Spiritualism', 'EnvBehav', 'has_child', 'Lives_in_city_tier',
+                   'Clusters', 'More_than_average']
+
+        st.title('A. Purchase/Combined_Data')
+        st.sidebar.subheader('Options to Analyze Distribution/Barplot')
+        x_value = st.sidebar.selectbox("Select X-Axis:", column_x,key = 'EDA324')
+        color = st.sidebar.selectbox("Select a Color:", columns,key = 'EDA')
+        row = st.sidebar.selectbox("Select a Row:",columns,key = 'EDA1')
+        col = st.sidebar.selectbox("Select a Column:", columns,key = 'EDA2')
+        st.subheader('I.) Distribution of '+str(x_value)+' with color ='+str(color)+', Row ='+str(row)+', Column  ='+str(col))
+        fig = px.histogram(data_frame=combined_data, y=None, x=x_value, color=color,
+                        facet_row=row, facet_col=col, marginal='box',width=1500, height=700,)
+        fig.update_layout(barmode='group')
+        fig.update_traces(opacity=0.70)
+        st.plotly_chart(fig)
+
+        colss = ['City_Tier', 'GST%%',
+               'Sale', 'Covid', 'Month', 'Year', 'WEEKDAY',
+               'Time_Month', 'Gender', 'Marital Status', 'More_than_average', 'Clusters', 'Lives_in_city_tier']
+        st.subheader('II.)Top ' + 'Brands ')
+        cols_selected = st.selectbox("Select a Column:", colss,key = 'EDA')
+        st.subheader('By ' + str(cols_selected))
+
+        # fig = px.histogram(data_frame= combined_data.groupby(['Brand', 'City_Tier']).size().reset_index(), y=None, x=x_value, color=color,
+        #                    facet_row=row, facet_col=col, marginal='box', width=1500, height=700, )
+        # fig.update_layout(barmode='group')
+        # fig.update_traces(opacity=0.70)
+        # st.plotly_chart(fig)
+
+        unique_colss = np.unique(combined_data[cols_selected])
+        for col in unique_colss:
+            fig = plt.figure(figsize=(18, 8),
+            FigureClass=Waffle,
+            rows=4,
+            title={'label': 'Top Brands by '+col, 'loc': 'left'},
+            values=combined_data.groupby(['Brand', cols_selected]).size().reset_index()[
+                       combined_data.groupby(['Brand', cols_selected]).size().reset_index()[
+                           cols_selected] == col].sort_values(by=0, ascending=False)[0][:10],
+            labels=list(combined_data.groupby(['Brand', cols_selected]).size().reset_index()[
+                            combined_data.groupby(['Brand', cols_selected]).size().reset_index()[
+                                cols_selected] == col].sort_values(by=0, ascending=False).Brand[:10]),
+                legend={'loc': 'upper left', 'bbox_to_anchor': (1.1, 1)})
+            st.pyplot(fig)
+
+        colss = ['City_Tier', 'GST%%',
+                 'Sale', 'Covid', 'Month', 'Year', 'WEEKDAY',
+                 'Time_Month', 'Gender', 'Marital Status', 'More_than_average', 'Clusters', 'Lives_in_city_tier']
+        st.subheader('III.)Top ' + 'Categories ')
+        cols_selected = st.selectbox("Select a Column:", colss, key='EDAef')
+        st.subheader('By ' + str(cols_selected))
+
+
+        unique_colss = np.unique(combined_data[cols_selected])
+        for col in unique_colss:
+            fig = plt.figure(figsize=(16, 8),
+                             FigureClass=Waffle,
+
+                             rows=9,
+                             title={'label': 'Top Categories by ' + col, 'loc': 'left'},
+                             values=combined_data.groupby(['Categories', cols_selected]).size().reset_index()[
+                                        combined_data.groupby(['Categories', cols_selected]).size().reset_index()[
+                                            cols_selected] == col].sort_values(by=0, ascending=False)[0][:10],
+                             labels=list(combined_data.groupby(['Categories', cols_selected]).size().reset_index()[
+                                             combined_data.groupby(['Categories', cols_selected]).size().reset_index()[
+                                                 cols_selected] == col].sort_values(by=0, ascending=False).Categories[:10]),
+                             legend={'loc': 'upper left', 'bbox_to_anchor': (1.1, 1)})
+            st.pyplot(fig)
+
+
+
+    elif selection_data == 'Survey_Data':
+        st.title('B. Survey Data')
+        survey_data = pd.read_csv('Clustered_survey_data_final_2.csv')
+        survey_data['RFMClass'] = survey_data['RFMClass'].astype(str)
+        columns =[None,
+            'Gender',
+            'Marital Status',
+            'Do you practise meditation? Yes/No',
+            'Do you do any form of exercise?', 'Collectiv',
+            'Life_Satsif', 'Indiv', 'LongTermOri', 'ShortTermOri', 'Materialism',
+            'Spiritualism', 'EnvBehav', 'has_child', 'Lives_in_city_tier',
+            'Clusters', 'More_than_average', 'Participated_in_Sale'
+        ]
+
+        columns_x = ['Age',
+                   'Gender',
+                   'Marital Status',
+                   'Do you practise meditation? Yes/No',
+                   'Do you do any form of exercise?', 'Collectiv',
+                   'Life_Satsif', 'Indiv', 'LongTermOri', 'ShortTermOri', 'Materialism',
+                   'Spiritualism', 'EnvBehav', 'has_child', 'Lives_in_city_tier',
+                   'Clusters', 'More_than_average', 'Participated_in_Sale'
+                   ]
+        x_value_x = st.sidebar.selectbox("Select a Color:", columns_x, key='EDA45')
+        colorq = st.sidebar.selectbox("Select a Color:", columns, key='EDA45')
+        rowq = st.sidebar.selectbox("Select a Row:", columns, key='EDA451')
+        colq = st.sidebar.selectbox("Select a Column:", columns, key='EDA245')
+        st.subheader('I) Distribution of ' + str(x_value_x) + ' with color =' + str(colorq) + ', Row =' + str(
+            rowq) + ', Column  =' + str(colq))
+        fig = px.histogram(data_frame=survey_data, y=None, x=x_value_x, color=colorq,
+                           facet_row=rowq, facet_col=colq, marginal='box', width=1500, height=700, )
+        fig.update_layout(barmode='overlay')
+        fig.update_traces(opacity=0.70)
+        st.plotly_chart(fig)
+
+
+        st.subheader('II) Visualising the Clusters using *T-SNE* generated by *K-Prototype Clustering* on *Survey Data*')
+        image = Image.open('T-SNE_Plot_Clusters.png')
+        st.image(image, width=1200)
+
+elif selectbox=='4. RFM and Market Basket Analysis':
+
+    st.write('Coding Language: ```Python```')
+    st.write('Libraries Used for EDA: ```pywaffle, prettytable, plotly, matplotlib, seaborn```')
+
+    rfm = pd.read_csv('RFM_Analysis.csv')
+    st.title('A. Top Consumers whose RFM Score is high')
+    db=rfm[rfm['RFMClass'] == 111].sort_values('monetary_value', ascending=False)
+    st.dataframe(db)
+
+    st.title('B. Market Basket Analysis arranged by high confidence')
+    mba = pd.read_csv('Market_Basket.csv')
+    mba.drop('Unnamed: 0',inplace=True,axis=1)
+    mba = mba.sort_values("confidence", ascending = False)
+    st.dataframe(mba)
