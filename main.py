@@ -128,7 +128,33 @@ if selectbox=='1. Introduction':
     st.write('*PCA and Factor Analysis* were also examined, but were eventually abandoned due to lack of interpretability.')
     st.write('Finally, the observations we came up with are summarized with little or no statistical jargon in the below presentation.')
 
-
+    st.subheader('6. Marketing Strategies Developed')
+    st.write('**1)Channelizing the Panic buying and dealing with Stock-home syndrome**')
+    st.write('During a pandemic like this, we\'ve seen people suffer from Stock-Home Syndrome, when they buy more than they need and end up depleting '
+             'supplier stock. In the event of a pandemic\'s first '
+             'phase, when individuals become overly obsessed with utilitarian things, we can set a limit on how much they can buy from a single account,'
+    'preventing supply shortages and allowing'
+    'suppliers to continue serving customers. This is'
+    'advantageous in two ways. To begin with, it may'
+    'serve a huge number of customers rather than a'
+    'small number of customers. Second, by doing so,'
+    'they will get many new customers, as well as'
+    'increased website reliability, as they appear to be'
+    'a lifesaver for many. this will make turn the'
+    'consumer into their loyal consumer in future.')
+    st.write('**2)Strategies that can be implemented**')
+    st.write('Consumer confidence can be gained gradually with the support of previous purchasing patterns, as consumers may '
+             'have to trust us with low-value products. If customers are satisfied, they will come to rely on us for higher-quality products.'
+             ' This can be observed in the second wave, where high-value orders were placed as well.')
+    st.write('**3) Cater what they don’t have and gradually increase the horizon.**')
+    st.write('Tier 2 and 3 cities will be targeted with more brand-oriented suggestions, while Tier 1 cities will be targeted with more utilitarian products and added conveniences such as same-day delivery. Also, gradually broaden the vision by moving tier 1 cities upstream and tier 2 and 3 cities downstream.')
+    st.write('**4) Encourage shoppers by discount during dry period**')
+    st.write('Sales have been demonstrated to encourage more customers to buy, and they can be employed during times when people aren\'t as interested in buying. This will enhance not only purchases but also online visitors to the website, which may then be directed to sponsored products. This will assist us in capitalize traffic even during the dry seasons.')
+    st.write('**5) Channelizing the shopping enthusiasm as well as Revenge shopping**')
+    st.write('To channel the consumer\'s shopping energy at the start of the month. Consumers should be targeted for high-value products with discounts that are only slightly greater than the main competitors.	')
+    st.write('Options such as "buy now, pay later,cheap EMI, and others are availableat the end of the month, allowing individuals to shop even when they are short on cash.')
+    st.write('**6) Utilizing weekdays and weekends**')
+    st.write('On weekdays, a greater number of unitarian products should be displayed, as well as the greatest number of discounts. Hedonic products should be shown more on weekends. Also, items that  demand a high level of involvement should target customers on weekends, whereas products that require a low level of involvement should target customers throughout the week.')
 
 ###############################################EDA#####################################################################33
 
@@ -166,7 +192,7 @@ elif selectbox=='2. EDA-Univariate':
         if(column_for_univariate):
 
             fig = px.histogram(data_frame=combined_data, y=None, x=column_for_univariate, color=None,
-                           facet_row=None, facet_col=None, marginal=None, width=1400, height=700,
+                           facet_row=None, facet_col=None, marginal=None, width=1200, height=700,
                            title="Univariate plot for "+str(column_for_univariate)+" on Combined_data")
             fig.update_layout(barmode='overlay')
             fig.update_traces(opacity=0.70)
@@ -188,7 +214,7 @@ elif selectbox=='2. EDA-Univariate':
                                                                                                         inplace=False,
                                                                                                         ascending=False).reset_index()
             fig = px.bar(data_frame=temp[0:20], x=column_for_discrete, y='Quantity', color=None,
-                        facet_row=None, facet_col=None,width=1400, height=700, )
+                        facet_row=None, facet_col=None,width=1200, height=700, )
             fig.update_layout(barmode='group')
             fig.update_traces(opacity=0.70)
             st.subheader('I.) Univariate Analysis on Top '+column_for_discrete)
@@ -197,7 +223,7 @@ elif selectbox=='2. EDA-Univariate':
 
         if(column_for_continuous):
             fig = px.histogram(data_frame=combined_data, y=None, x=column_for_continuous, color=None,
-                               facet_row=None, facet_col=None, marginal=None, width=1400, height=700,
+                               facet_row=None, facet_col=None, marginal=None, width=1200, height=700,
                                )
             fig.update_layout(barmode='overlay')
             fig.update_traces(opacity=0.70)
@@ -208,6 +234,9 @@ elif selectbox=='2. EDA-Univariate':
             # st.header("Distribution of Log_Final Price")
             st.subheader('I.) Univariate Analysis on ' + column_for_continuous)
             st.plotly_chart(fig)
+        st.subheader('II) Purchase Pattern through Months ')
+        image = Image.open('Sale_month_wise.png')
+        st.image(image, width=1500)
 
     #==========================================================================================================================================================
     #=============================================================Survey Data==================================================================================
@@ -235,7 +264,7 @@ elif selectbox=='2. EDA-Univariate':
 
         if (column_for_categorical_sur):
             fig = px.histogram(data_frame=survey_data, y=None, x=column_for_categorical_sur, color=None,
-                               facet_row=None, facet_col=None, marginal=None, width=1400, height=700,
+                               facet_row=None, facet_col=None, marginal=None, width=1200, height=700,
                                )
             fig.update_layout(barmode='overlay')
             fig.update_traces(opacity=0.70)
@@ -253,7 +282,7 @@ elif selectbox=='2. EDA-Univariate':
                 inplace=False,
                 ascending=False).reset_index()
             fig = px.bar(data_frame=temp[0:20], x=column_for_discrete_sur, y=0, color=None,
-                         facet_row=None, facet_col=None, width=1400, height=700, )
+                         facet_row=None, facet_col=None, width=1200, height=700, )
             fig.update_layout(barmode='overlay')
             fig.update_traces(opacity=0.70)
             st.subheader('I.) Univariate Analysis on Top ' + column_for_discrete_sur)
@@ -263,7 +292,7 @@ elif selectbox=='2. EDA-Univariate':
         if (column_for_continuous_sur):
 
             fig = px.histogram(data_frame=survey_data, y=None, x=column_for_continuous_sur, color=None,
-                               facet_row=None, facet_col=None, marginal=None, width=1400, height=700,
+                               facet_row=None, facet_col=None, marginal=None, width=1200, height=700,
                                )
             fig.update_layout(barmode='overlay')
             fig.update_traces(opacity=0.70)
@@ -312,7 +341,7 @@ elif selectbox=='3. EDA-Multivariate':
         col = st.sidebar.selectbox("Select a Column:", columns,key = 'EDA2')
         st.subheader('I.) Distribution of '+str(x_value)+' with color ='+str(color)+', Row ='+str(row)+', Column  ='+str(col))
         fig = px.histogram(data_frame=combined_data, y=None, x=x_value, color=color,
-                        facet_row=row, facet_col=col, marginal='box',width=1400, height=700,)
+                        facet_row=row, facet_col=col, marginal='box',width=1200, height=700,)
         fig.update_layout(barmode='group')
         fig.update_traces(opacity=0.70)
         st.plotly_chart(fig)
@@ -401,7 +430,7 @@ elif selectbox=='3. EDA-Multivariate':
         st.subheader('I) Distribution of ' + str(x_value_x) + ' with color =' + str(colorq) + ', Row =' + str(
             rowq) + ', Column  =' + str(colq))
         fig = px.histogram(data_frame=survey_data, y=None, x=x_value_x, color=colorq,
-                           facet_row=rowq, facet_col=colq, marginal='box', width=1400, height=700, )
+                           facet_row=rowq, facet_col=colq, marginal='box', width=1200, height=700, )
         fig.update_layout(barmode='overlay')
         fig.update_traces(opacity=0.70)
         st.plotly_chart(fig)
