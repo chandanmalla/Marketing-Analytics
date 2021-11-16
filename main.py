@@ -12,9 +12,9 @@ import time
 import plotly.express as px
 import streamlit as st
 from pywaffle import Waffle
+st.set_page_config(page_title='Marketing Analytics Project', page_icon='flipkart_icon-icons.com_62718.png', layout="wide", initial_sidebar_state="auto", menu_items=None)
 
 combined_data = pd.read_csv('Combined_data-Part_3.csv')
-
 
 image = Image.open('Picture1.png')
 st.sidebar.image(image, width=280)
@@ -125,6 +125,9 @@ if selectbox=='1. Introduction':
     st.write('To approach the clustering problem we used different clustering algorithms and visualised the results using a T-SNE plot, and found K-Prototype to be the best')
     st.write('We also tried to use PCA and Factor Analysis but realized that we might need to spend a lot of time on it decide components or factor loadings name, so we abandoned this idea')
     st.write('Finally, the observations we came up with are summarized with little or no Statistical Jargon in the below PPT:')
+
+
+
 ###############################################EDA#####################################################################33
 
 
