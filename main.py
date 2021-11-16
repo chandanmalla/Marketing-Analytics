@@ -127,7 +127,10 @@ if selectbox=='1. Introduction':
     st.write('For clustering the data, we experimented with different clustering algorithms and found *K-Prototype* to be the best, after visualising the results using a *T-SNE plot.')
     st.write('*PCA and Factor Analysis* were also examined, but were eventually abandoned due to lack of interpretability.')
     st.write('Finally, the observations we came up with are summarized with little or no statistical jargon in the below presentation.')
-
+    st.write('**PPT**: https://docs.google.com/presentation/d/1z0njc1ZyZVfasgrO519wanvFSBUcBPvD/edit?usp=drive_web&ouid=116307560489086489304&rtpof=true')
+    st.write('You can find the Colab Notebook we used for reference:')
+    st.write('**Data Cleaning and Feature Engineering**: https://colab.research.google.com/drive/1v1n1ZbsmR-hXYUy6XycBQYZTAgaqzzJO?usp=sharing')
+    st.write('**Main Notebook**: https://colab.research.google.com/drive/19HkBXu4_c0SM_3glibtmUSNPSM7LfGrx#scrollTo=EwsE7WsWdYSE')
     st.subheader('6. Marketing Strategies Developed')
     st.write('**1)Channelizing the Panic buying and dealing with Stock-home syndrome**')
     st.write('During a pandemic like this, we\'ve seen people suffer from Stock-Home Syndrome, when they buy more than they need and end up depleting '
