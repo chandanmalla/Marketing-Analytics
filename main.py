@@ -121,7 +121,7 @@ if selectbox=='1. Introduction':
     st.write('This involved rather strenous manual efforts.')
     #st.write('Let\'s not discuss this part!')
 
-    st.subheader('5. What was the approach used?')
+    st.subheader('6. What was the approach used?')
     st.write('')
     st.write('We used Statistical concepts like *Non Parameteric Testing, Chi-Squared Test, ANOVA, Two-Sample Hypothesis Testing* taught in the Applied Statistics course to test some of our hypotheses.')
     st.write('For clustering the data, we experimented with different clustering algorithms and found *K-Prototype* to be the best, after visualising the results using a *T-SNE plot.')
@@ -131,7 +131,7 @@ if selectbox=='1. Introduction':
     st.write('You can find the Colab Notebook we used for reference:')
     st.write('**Data Cleaning and Feature Engineering**: https://colab.research.google.com/drive/1v1n1ZbsmR-hXYUy6XycBQYZTAgaqzzJO?usp=sharing')
     st.write('**Main Notebook**: https://colab.research.google.com/drive/19HkBXu4_c0SM_3glibtmUSNPSM7LfGrx#scrollTo=EwsE7WsWdYSE')
-    st.subheader('6. Marketing Strategies Developed')
+    st.subheader('7. Marketing Strategies Developed')
     st.write('**1)Channelizing the Panic buying and dealing with Stock-home syndrome**')
     st.write('During a pandemic like this, we\'ve seen people suffer from Stock-Home Syndrome, when they buy more than they need and end up depleting '
              'supplier stock. In the event of a pandemic\'s first '
