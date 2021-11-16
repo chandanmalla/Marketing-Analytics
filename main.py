@@ -121,9 +121,9 @@ if selectbox=='1. Introduction':
 
     st.subheader('5. How did we approach this Project?')
     st.write('')
-    st.write('We used Statistical concepts like Non Parameteric Testing, Chi-Square Test, ANOVA, Two-Sample Hypothesis testing taught in the CM\'s class to evaluate some of the hypotheses we formed.')
-    st.write('To approach the clustering problem we used different clustering algorithms and visualised the results using a T-SNE plot, and found K-Prototype to be the best')
-    st.write('We also tried to use PCA and Factor Analysis but realized that we might need to spend a lot of time on it decide components or factor loadings name, so we abandoned this idea')
+    st.write('We used Statistical concepts like *Non Parameteric Testing, Chi-Square Test, ANOVA, Two-Sample Hypothesis testing* taught in the CM\'s class to evaluate some of the hypotheses we formed.')
+    st.write('To approach the clustering problem we used different clustering algorithms and visualised the results using a *T-SNE plot*, and found *K-Prototype* to be the best')
+    st.write('We also tried to use *PCA and Factor Analysis* but realized that we might need to spend a lot of time on it decide components or factor loadings name, so we abandoned this idea')
     st.write('Finally, the observations we came up with are summarized with little or no Statistical Jargon in the below PPT:')
 
 
