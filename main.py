@@ -164,7 +164,7 @@ elif selectbox=='2. EDA-Univariate':
         if(column_for_univariate):
 
             fig = px.histogram(data_frame=combined_data, y=None, x=column_for_univariate, color=None,
-                           facet_row=None, facet_col=None, marginal=None, width=1500, height=700,
+                           facet_row=None, facet_col=None, marginal=None, width=1400, height=700,
                            title="Univariate plot for "+str(column_for_univariate)+" on Combined_data")
             fig.update_layout(barmode='overlay')
             fig.update_traces(opacity=0.70)
@@ -186,7 +186,7 @@ elif selectbox=='2. EDA-Univariate':
                                                                                                         inplace=False,
                                                                                                         ascending=False).reset_index()
             fig = px.bar(data_frame=temp[0:20], x=column_for_discrete, y='Quantity', color=None,
-                        facet_row=None, facet_col=None,width=1500, height=700, )
+                        facet_row=None, facet_col=None,width=1400, height=700, )
             fig.update_layout(barmode='group')
             fig.update_traces(opacity=0.70)
             st.subheader('I.) Univariate Analysis on Top '+column_for_discrete)
@@ -195,7 +195,7 @@ elif selectbox=='2. EDA-Univariate':
 
         if(column_for_continuous):
             fig = px.histogram(data_frame=combined_data, y=None, x=column_for_continuous, color=None,
-                               facet_row=None, facet_col=None, marginal=None, width=1500, height=700,
+                               facet_row=None, facet_col=None, marginal=None, width=1400, height=700,
                                )
             fig.update_layout(barmode='overlay')
             fig.update_traces(opacity=0.70)
@@ -233,7 +233,7 @@ elif selectbox=='2. EDA-Univariate':
 
         if (column_for_categorical_sur):
             fig = px.histogram(data_frame=survey_data, y=None, x=column_for_categorical_sur, color=None,
-                               facet_row=None, facet_col=None, marginal=None, width=1500, height=700,
+                               facet_row=None, facet_col=None, marginal=None, width=1400, height=700,
                                )
             fig.update_layout(barmode='overlay')
             fig.update_traces(opacity=0.70)
@@ -251,7 +251,7 @@ elif selectbox=='2. EDA-Univariate':
                 inplace=False,
                 ascending=False).reset_index()
             fig = px.bar(data_frame=temp[0:20], x=column_for_discrete_sur, y=0, color=None,
-                         facet_row=None, facet_col=None, width=1500, height=700, )
+                         facet_row=None, facet_col=None, width=1400, height=700, )
             fig.update_layout(barmode='overlay')
             fig.update_traces(opacity=0.70)
             st.subheader('I.) Univariate Analysis on Top ' + column_for_discrete_sur)
@@ -261,7 +261,7 @@ elif selectbox=='2. EDA-Univariate':
         if (column_for_continuous_sur):
 
             fig = px.histogram(data_frame=survey_data, y=None, x=column_for_continuous_sur, color=None,
-                               facet_row=None, facet_col=None, marginal=None, width=1500, height=700,
+                               facet_row=None, facet_col=None, marginal=None, width=1400, height=700,
                                )
             fig.update_layout(barmode='overlay')
             fig.update_traces(opacity=0.70)
@@ -310,7 +310,7 @@ elif selectbox=='3. EDA-Multivariate':
         col = st.sidebar.selectbox("Select a Column:", columns,key = 'EDA2')
         st.subheader('I.) Distribution of '+str(x_value)+' with color ='+str(color)+', Row ='+str(row)+', Column  ='+str(col))
         fig = px.histogram(data_frame=combined_data, y=None, x=x_value, color=color,
-                        facet_row=row, facet_col=col, marginal='box',width=1500, height=700,)
+                        facet_row=row, facet_col=col, marginal='box',width=1400, height=700,)
         fig.update_layout(barmode='group')
         fig.update_traces(opacity=0.70)
         st.plotly_chart(fig)
@@ -399,7 +399,7 @@ elif selectbox=='3. EDA-Multivariate':
         st.subheader('I) Distribution of ' + str(x_value_x) + ' with color =' + str(colorq) + ', Row =' + str(
             rowq) + ', Column  =' + str(colq))
         fig = px.histogram(data_frame=survey_data, y=None, x=x_value_x, color=colorq,
-                           facet_row=rowq, facet_col=colq, marginal='box', width=1500, height=700, )
+                           facet_row=rowq, facet_col=colq, marginal='box', width=1400, height=700, )
         fig.update_layout(barmode='overlay')
         fig.update_traces(opacity=0.70)
         st.plotly_chart(fig)
