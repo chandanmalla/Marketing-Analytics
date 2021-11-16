@@ -132,19 +132,19 @@ if selectbox=='1. Introduction':
     st.write('**1)Channelizing the Panic buying and dealing with Stock-home syndrome**')
     st.write('During a pandemic like this, we\'ve seen people suffer from Stock-Home Syndrome, when they buy more than they need and end up depleting '
              'supplier stock. In the event of a pandemic\'s first '
-             'phase, when individuals become overly obsessed with utilitarian things, we can set a limit on how much they can buy from a single account,'
-    'preventing supply shortages and allowing'
-    'suppliers to continue serving customers. This is'
-    'advantageous in two ways. To begin with, it may'
-    'serve a huge number of customers rather than a'
-    'small number of customers. Second, by doing so,'
-    'they will get many new customers, as well as'
-    'increased website reliability, as they appear to be'
-    'a lifesaver for many. this will make turn the'
-    'consumer into their loyal consumer in future.')
+             'phase, when individuals become overly obsessed with utilitarian things, we can set a limit on how much they can buy from a single account, '
+    'preventing supply shortages and allowing '
+    'suppliers to continue serving customers. This is '
+    'advantageous in two ways. To begin with, it may '
+    'serve a huge number of customers rather than a '
+    'small number of customers. Second, by doing so, '
+    'they will get many new customers, as well as '
+    'increased website reliability, as they appear to be '
+    'a lifesaver for many. this will make turn the '
+    'consumer into their loyal consumer in future. ')
     st.write('**2)Strategies that can be implemented**')
     st.write('Consumer confidence can be gained gradually with the support of previous purchasing patterns, as consumers may '
-             'have to trust us with low-value products. If customers are satisfied, they will come to rely on us for higher-quality products.'
+             'have to trust us with low-value products. If customers are satisfied, they will come to rely on us for higher-quality products. '
              ' This can be observed in the second wave, where high-value orders were placed as well.')
     st.write('**3) Cater what they don’t have and gradually increase the horizon.**')
     st.write('Tier 2 and 3 cities will be targeted with more brand-oriented suggestions, while Tier 1 cities will be targeted with more utilitarian products and added conveniences such as same-day delivery. Also, gradually broaden the vision by moving tier 1 cities upstream and tier 2 and 3 cities downstream.')
