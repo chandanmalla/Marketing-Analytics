@@ -117,7 +117,7 @@ if selectbox=='1. Introduction':
     st.write('9.**More than Average**: This feature was added to classify if a "buyer" was buying in more number of categories than "Average number of purchase categories per buyer( in our case it was 4 .8)"')
 
     st.subheader('5. Data Cleaning')
-    st.write('Let\'s not discuss this part!!!!!!')
+    st.write('Let\'s not discuss thid part!!!!!!')
 
     st.subheader('5. How did we approach this Project?')
     st.write('')
