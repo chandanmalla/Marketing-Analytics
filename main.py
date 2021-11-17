@@ -12,11 +12,11 @@ import time
 import plotly.express as px
 import streamlit as st
 from pywaffle import Waffle
-st.set_page_config(page_title='Marketing Analytics Project', page_icon='flipkart_icon-icons.com_62718.png', layout="wide", initial_sidebar_state="auto", menu_items=None)
+st.set_page_config(page_title='Marketing Analytics Project', page_icon='image/flipkart_icon-icons.com_62718.png', layout="wide", initial_sidebar_state="auto", menu_items=None)
 
-combined_data = pd.read_csv('Combined_data-Part_3.csv')
+combined_data = pd.read_csv('data/Combined_data-Part_3.csv')
 
-image = Image.open('Picture1.png')
+image = Image.open('image/Picture1.png')
 st.sidebar.image(image, width=280)
 st.sidebar.title('MG241')
 st.sidebar.title('Marketing Analytics Project')
@@ -56,10 +56,10 @@ if selectbox=='1. Introduction':
     st.subheader('3. How was the purchase data gathered?')
     st.write('**A. We asked consumers to share their invoices, either through email or by downloading purchase invoices from Flipkart\'s website.**')
     st.write('Email:')
-    image = Image.open('email_pdf.png')
+    image = Image.open('image/email_pdf.png')
     st.image(image, width=700)
     st.write('Website:')
-    image = Image.open('Flipkart_order.png')
+    image = Image.open('image/Flipkart_order.png')
     st.image(image, width=700)
 
     st.subheader('4. Feature Engineering')
@@ -128,6 +128,11 @@ if selectbox=='1. Introduction':
     st.write('*PCA and Factor Analysis* were also examined, but were eventually abandoned due to lack of interpretability.')
     st.write('Finally, the observations we came up with are summarized with little or no statistical jargon in the below presentation.')
     st.write('**PPT**: https://docs.google.com/presentation/d/1z0njc1ZyZVfasgrO519wanvFSBUcBPvD/edit?usp=drive_web&ouid=116307560489086489304&rtpof=true')
+    st.write('Some Highlights of PPT:')
+    image1 = Image.open('image/Highlights_PPT_1.png')
+    st.image(image1, width=1000)
+    image2 = Image.open('image/Highlights_PPT_2.png')
+    st.image(image2, width=1000)
     st.write('You can find the Colab Notebook we used for reference:')
     st.write('**Data Cleaning and Feature Engineering**: https://colab.research.google.com/drive/1v1n1ZbsmR-hXYUy6XycBQYZTAgaqzzJO?usp=sharing')
     st.write('**Main Notebook**: https://colab.research.google.com/drive/19HkBXu4_c0SM_3glibtmUSNPSM7LfGrx#scrollTo=EwsE7WsWdYSE')
@@ -190,7 +195,7 @@ elif selectbox=='2. EDA-Univariate':
         st.subheader('I) Univariate Analysis for '+column_for_univariate)
 
 
-        combined_data = pd.read_csv('Combined_data-Part_3.csv')
+        combined_data = pd.read_csv('data/Combined_data-Part_3.csv')
 
         if(column_for_univariate):
 
@@ -209,7 +214,7 @@ elif selectbox=='2. EDA-Univariate':
         if(column_for_discrete=='Brand'):
 
             st.subheader('I) Univariate Analysis for '+column_for_discrete+ ' purchased ')
-            image = Image.open('wordcloud.png')
+            image = Image.open('image/wordcloud.png')
             st.image(image, width=1000)
         else:
 
@@ -238,7 +243,7 @@ elif selectbox=='2. EDA-Univariate':
             st.subheader('I.) Univariate Analysis on ' + column_for_continuous)
             st.plotly_chart(fig)
         st.subheader('II) Purchase Pattern through Months ')
-        image = Image.open('Sale_month_wise.png')
+        image = Image.open('image/Sale_month_wise.png')
         st.image(image, width=1500)
 
     #==========================================================================================================================================================
@@ -246,7 +251,7 @@ elif selectbox=='2. EDA-Univariate':
     #==========================================================================================================================================================
     else:
         st.title('B. Survey Data')
-        survey_data = pd.read_csv('Clustered_survey_data_final_2.csv')
+        survey_data = pd.read_csv('data/Clustered_survey_data_final_2.csv')
         survey_data['RFMClass'] = survey_data['RFMClass'].astype('str')
         categorical_sur = ['Gender','Marital Status','Do you have to care for anyone with chronic illness?','Income (per month)', 'Preferred Mode of Payment',
                        'Do you practise meditation? Yes/No', 'If yes','Do you do any form of exercise?', 'If yes.1',' How often do you volunteer for social-service activities?',
@@ -405,7 +410,7 @@ elif selectbox=='3. EDA-Multivariate':
 
     elif selection_data == 'Survey_Data':
         st.title('B. Survey Data')
-        survey_data = pd.read_csv('Clustered_survey_data_final_2.csv')
+        survey_data = pd.read_csv('data/Clustered_survey_data_final_2.csv')
         survey_data['RFMClass'] = survey_data['RFMClass'].astype(str)
         columns =[None,
             'Gender',
@@ -440,7 +445,7 @@ elif selectbox=='3. EDA-Multivariate':
 
 
         st.subheader('II) Visualising the Clusters using *T-SNE* generated by *K-Prototype Clustering* on *Survey Data*')
-        image = Image.open('T-SNE_Plot_Clusters.png')
+        image = Image.open('image/T-SNE_Plot_Clusters.png')
         st.image(image, width=1200)
 
 elif selectbox=='4. RFM and Market Basket Analysis':
@@ -448,13 +453,13 @@ elif selectbox=='4. RFM and Market Basket Analysis':
     st.write('Coding Language: ```Python```')
     st.write('Libraries Used for EDA: ```pywaffle, prettytable, plotly, matplotlib, seaborn```')
 
-    rfm = pd.read_csv('RFM_Analysis.csv')
+    rfm = pd.read_csv('data/RFM_Analysis.csv')
     st.title('A. Top Consumers whose RFM Score is high')
     db=rfm[rfm['RFMClass'] == 111].sort_values('monetary_value', ascending=False)
     st.dataframe(db)
 
     st.title('B. Market Basket Analysis arranged by high confidence')
-    mba = pd.read_csv('Market_Basket.csv')
+    mba = pd.read_csv('data/Market_Basket.csv')
     mba.drop('Unnamed: 0',inplace=True,axis=1)
     mba = mba.sort_values("confidence", ascending = False)
     st.dataframe(mba)
