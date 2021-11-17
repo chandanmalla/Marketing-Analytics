@@ -25,7 +25,3 @@
 - Purchase behaviour Covid 2nd wave was different than 1st and Normal days, it showed people tend to save more than spend it.
 - During Weekday and Weekend purchase behavior was mostly similar.
 - During Beginning of the month people tend to buy products more on expensive side than mid or end of the month.
-![alt text](https://i.imgur.com/nqx0oXl.png)
-
-
-![alt text](https://i.imgur.com/BFsOqMq.png)
