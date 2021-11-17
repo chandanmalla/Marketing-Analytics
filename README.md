@@ -1,6 +1,6 @@
 # Marketing-Analytics
 ![alt text](https://logos-download.com/wp-content/uploads/2016/09/Flipkart_logo-700x185.png)
-
+[Colab Notebook](https://colab.research.google.com/drive/19HkBXu4_c0SM_3glibtmUSNPSM7LfGrx_)
 [Kindly Click on me to check out the Dashboard for the project](https://marketing-analytics-iisc.herokuapp.com/)
 
 ## Analytics Project to understand purchase Behaviour of Flipkart Users
