@@ -1,7 +1,7 @@
 # Marketing-Analytics
 ![alt text](https://logos-download.com/wp-content/uploads/2016/09/Flipkart_logo-700x185.png)
 
-https://marketing-analytics-iisc.herokuapp.com/
+[Kindly Click on me To check out the Dashboard](https://marketing-analytics-iisc.herokuapp.com/)
 
 ## Analytics Project to understand purchase Behaviour of Flipkart Users
 - data/Clustered_survey_data_final_2.csv - Contains Survey Data of Users who currently use Flipkart
