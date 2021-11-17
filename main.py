@@ -14,7 +14,7 @@ import streamlit as st
 from pywaffle import Waffle
 st.set_page_config(page_title='Marketing Analytics Project', page_icon='./image/flipkart_icon-icons.com_62718.png', layout="wide", initial_sidebar_state="auto", menu_items=None)
 
-combined_data = pd.read_csv('data/Combined_data-Part_3.csv')
+combined_data = pd.read_csv('./data/Combined_data-Part_3.csv')
 
 image = Image.open('./image/Picture1.png')
 st.sidebar.image(image, width=280)
@@ -195,7 +195,7 @@ elif selectbox=='2. EDA-Univariate':
         st.subheader('I) Univariate Analysis for '+column_for_univariate)
 
 
-        combined_data = pd.read_csv('data/Combined_data-Part_3.csv')
+        combined_data = pd.read_csv('./data/Combined_data-Part_3.csv')
 
         if(column_for_univariate):
 
@@ -251,7 +251,7 @@ elif selectbox=='2. EDA-Univariate':
     #==========================================================================================================================================================
     else:
         st.title('B. Survey Data')
-        survey_data = pd.read_csv('data/Clustered_survey_data_final_2.csv')
+        survey_data = pd.read_csv('./data/Clustered_survey_data_final_2.csv')
         survey_data['RFMClass'] = survey_data['RFMClass'].astype('str')
         categorical_sur = ['Gender','Marital Status','Do you have to care for anyone with chronic illness?','Income (per month)', 'Preferred Mode of Payment',
                        'Do you practise meditation? Yes/No', 'If yes','Do you do any form of exercise?', 'If yes.1',' How often do you volunteer for social-service activities?',
@@ -410,7 +410,7 @@ elif selectbox=='3. EDA-Multivariate':
 
     elif selection_data == 'Survey_Data':
         st.title('B. Survey Data')
-        survey_data = pd.read_csv('data/Clustered_survey_data_final_2.csv')
+        survey_data = pd.read_csv('./data/Clustered_survey_data_final_2.csv')
         survey_data['RFMClass'] = survey_data['RFMClass'].astype(str)
         columns =[None,
             'Gender',
@@ -453,13 +453,13 @@ elif selectbox=='4. RFM and Market Basket Analysis':
     st.write('Coding Language: ```Python```')
     st.write('Libraries Used for EDA: ```pywaffle, prettytable, plotly, matplotlib, seaborn```')
 
-    rfm = pd.read_csv('data/RFM_Analysis.csv')
+    rfm = pd.read_csv('./data/RFM_Analysis.csv')
     st.title('A. Top Consumers whose RFM Score is high')
     db=rfm[rfm['RFMClass'] == 111].sort_values('monetary_value', ascending=False)
     st.dataframe(db)
 
     st.title('B. Market Basket Analysis arranged by high confidence')
-    mba = pd.read_csv('data/Market_Basket.csv')
+    mba = pd.read_csv('./data/Market_Basket.csv')
     mba.drop('Unnamed: 0',inplace=True,axis=1)
     mba = mba.sort_values("confidence", ascending = False)
     st.dataframe(mba)
