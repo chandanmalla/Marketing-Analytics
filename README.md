@@ -7,7 +7,7 @@ https://marketing-analytics-iisc.herokuapp.com/
 - data/Clustered_survey_data_final_2.csv - Contains Survey Data of Users who currently use Flipkart
 - data/Combined_data-Part_3.csv - Contains Purchase Data merged with survey data of users.
 
-##Techniques Used
+## Techniques Used
 - K-Prototype
 - T-SNE
 - Feature Engineering
@@ -16,7 +16,7 @@ https://marketing-analytics-iisc.herokuapp.com/
 - KS Snippet Test
 - One way ANOVA Test
 
-##Some Key Highlights:
+## Some Key Highlights:
 - Flipkart is used by Tier 2 and Tier 3 Users more than Tier 1 Users
 - Tier 2 and Tier 3 also purchase more expensive products Tier 1.
 - November is the Peak time of Sale for Flipkart
