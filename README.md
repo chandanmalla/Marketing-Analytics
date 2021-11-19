@@ -5,7 +5,6 @@
 
 [Kindly Click on me to check out the Dashboard for the project](https://marketing-analytics-iisc.herokuapp.com/)
 
-### For Power BI Analysis please download the file POWER_MM.zip and extract it
 
 ## Analytics Project to understand purchase Behaviour of Flipkart Users
 - data/Clustered_survey_data_final_2.csv - Contains Survey Data of Users who currently use Flipkart
@@ -29,3 +28,6 @@
 - Purchase behaviour Covid 2nd wave was different than 1st and Normal days, it showed people tend to save more than spend it.
 - During Weekday and Weekend purchase behavior was mostly similar.
 - During Beginning of the month people tend to buy products more on expensive side than mid or end of the month.
+
+
+### For Power BI Analysis please download the file POWER_MM.zip and extract it
