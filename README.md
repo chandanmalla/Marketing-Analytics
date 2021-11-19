@@ -5,6 +5,8 @@
 
 [Kindly Click on me to check out the Dashboard for the project](https://marketing-analytics-iisc.herokuapp.com/)
 
+### For Power BI Analysis please download the file POWER_MM.zip and extract it
+
 ## Analytics Project to understand purchase Behaviour of Flipkart Users
 - data/Clustered_survey_data_final_2.csv - Contains Survey Data of Users who currently use Flipkart
 - data/Combined_data-Part_3.csv - Contains Purchase Data merged with survey data of users.
